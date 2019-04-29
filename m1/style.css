@@ -11,7 +11,6 @@ body {
   margin: 0px;
   padding: 0px;
   font: 120% 160% verdana, sans-serif;
-  /*pendiente poner anchura y altura de la fuente*/
   background-color: #f2f5fe;
   background-repeat: repeat-x;
   background-image: url("./fondo.gif");
@@ -28,10 +27,6 @@ Texto:
 color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
 Altura de línea: 35px*/
 
-* {
-  border: 1px solid red;
-}
-
 #contenedor {
   background-color: white;
   width: 80%;
@@ -43,10 +38,22 @@ Altura de línea: 35px*/
 
 header {
   background: #233c9b;
-  color: white;
+  color: #fff;
   font: 260% georgia serif;
+  text-decoration: none;
   text-decoration: underline;
+  padding: 10px;
 }
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #b5c4e3;
+}
+
 figure {
   width: 200px;
   margin: auto;
@@ -54,7 +61,13 @@ figure {
 
 nav {
   margin: auto;
-  width: 900px;
+  width: 600px;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #314798;
 }
 
 nav li {
@@ -67,6 +80,8 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
+  color: #b5c4e3;
 }
 /* Al menú de navegación se le aplicará el siguiente formato: 
   - Estará centrado con respecto a la cabecera
@@ -96,6 +111,10 @@ aside {
   background-image: none;
   background-color: white;
   font-size: 0.75em;
+  font-family: verdana, sans-serif;
+}
+h2 {
+  color: #314798;
 }
 
 /* El elemento lateral tendrá las siguientes características:
