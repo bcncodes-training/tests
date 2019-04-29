@@ -1,3 +1,85 @@
+body {
+  margin: 0;
+	padding: 0;
+  border: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 120%;
+  line-height: 160%;
+  background-color: #F2F5FE;
+  background-image: url("images/fondo.gif");
+  background-repeat: repeat-x;
+
+}
+
+.Container {
+  width: 80%;
+  position: static;
+  background-color: white;
+  margin: auto;
+
+}
+
+.Header {
+background-color:#233C9B;
+Padding: 10px;
+color:#FFF;
+font-family: georgia, serif;
+font-size: 260% ;
+text-decoration: underline;
+line-height: 35px;
+
+}
+
+.Menu {
+  text-align: center;
+}
+
+li.Nav {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px 5px 15px;
+  color: #B5C4E3;
+  font-size: 0.75em;
+  background-color: #253575;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Imagen {
+  font-size: 0.75em;
+  display: grid;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img[alt="Koala"] {
+  width: 200px; height: 200px;
+  margin: 0 auto;
+}
+
+.Main {
+  float:left;
+  width: 79%;
+  padding: 30px 10px 60px 10px;
+}
+
+.Aside {
+  float: right;
+  width: 19%;
+  font-size: 0.75em;
+
+}
+
+.Footer {
+  clear:both;
+  font-size: 0.75em;
+  padding: 5px 5px;
+  text-align: center;
+  height: 40px;
+  color: white;
+  background-color: #233C9B;
+}
 
 /* El bloque de reset tendrá las siguientes características:
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
