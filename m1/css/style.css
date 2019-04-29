@@ -12,56 +12,56 @@ header:hover{color: #B5C4E3;}
 body{text-align: center;margin: 0 10%;position: relative;display: inline-block;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 120%;line-height: 160%;}
 body>div:first-of-type{background-color: white;position: relative;display: inline-block;}
 p{text-align: justify;margin: 20px 0;}
-body>div>ul:first-of-type{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;/*! background-color: #253575; */}
+body>div>ul:first-of-type{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;}
 ul:hover{cursor: pointer;}
 body>div>ul:first-of-type>li{display: inline-block;margin: 5px;background-color: #253575;padding: 5px 15px;}
 body>div>ul:first-of-type>li:hover{background-color: #fff;}
-main{width: 79%;float: left;padding: 30px 10px 60px 10px;}
+main{width: 79%;display: inline-block;padding: 30px 10px 60px 10px;}
 figure>img{height: 200px;width: 200px;}
-aside{float: right;width: 19%;font-size: 0.75em;display: block;}
+aside{float: right;width: 19%;font-size: 0.75em;}
 aside>ol{/*! text-align: left; */padding: 5px;}
 aside ul{margin-left: 40px !important;}
 ol>li{display: block;font-weight: bold;padding: 10px;text-align: left;}
 li>ul{font-weight: normal;margin: 10px;margin: 10px 0;list-style-type: disc;}
 li>ul>li{margin: 10px 0;}
-footer{height: 100%;font-size: 0.75em;color: #fff;background-color: #233C9B;position: relative;}
-footer>div{width: 100%;display: block;height: 40px;text-align: center;padding: 5px 0;line-height: 67px;}
-/* El bloque de reset tendrá las siguientes características:
-. márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
+footer{font-size: 0.75em;color: #fff;background-color: #233C9B;position: relative;display: flex;align-items: end;height: 40px;}
+footer>span{width: 100%;padding: 5px 0;}
+/* El bloque de reset tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
+. mÃƒÂ¡rgenes, padding, fuente (verdana, sans-serif con tamaÃƒÂ±o 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
 
-/* El contenedor tendrá las siguientes características: 
+/* El contenedor tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas: 
   ancho 80% color de fondo blanco */
 
-/*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
+/*La cabecera de la pÃƒÂ¡gina contendrÃƒÂ¡ el tÃƒÂ­tulo con enlace al directorio del contenido de la pÃƒÂ¡gina. Las caracterÃƒÂ­sticas serÃƒÂ¡n:
 Fondo:
 Color:#233C9B
 Padding: 10px;
 Texto:
-color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
-Altura de línea: 35px*/
+color de texto: #FFF, fuente georgia, serif y tamaÃƒÂ±o 260%. Al pasar el mouse por encima tomarÃƒÂ¡ el color: #B5C4E3; 
+Altura de lÃƒÂ­nea: 35px*/
 
-/* Al menú de navegación se le aplicará el siguiente formato: 
-  - Estará centrado con respecto a la cabecera
-  - los elementos estarán separados por un espacio de 5px
-  - la fuente  será 3/4 de la inicial, en negrita y de color #B5C4E3
-  - los enlaces no estarán subrayados
-  - el cursor tomará la forma de puntero al pasar por encima
-  - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
-  - El fondo del elemento será #253575
-  - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+/* Al menÃƒÂº de navegaciÃƒÂ³n se le aplicarÃƒÂ¡ el siguiente formato: 
+  - EstarÃƒÂ¡ centrado con respecto a la cabecera
+  - los elementos estarÃƒÂ¡n separados por un espacio de 5px
+  - la fuente  serÃƒÂ¡ 3/4 de la inicial, en negrita y de color #B5C4E3
+  - los enlaces no estarÃƒÂ¡n subrayados
+  - el cursor tomarÃƒÂ¡ la forma de puntero al pasar por encima
+  - los elementos tendrÃƒÂ¡n un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
+  - El fondo del elemento serÃƒÂ¡ #253575
+  - Al pasar el mouse por encima adquirirÃƒÂ¡ el color de fondo #31479B;*/
 
 
-/* La sección principal tendrá las siguientes características:
+/* La secciÃƒÂ³n principal tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
   - ancho: 79%
   - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
 
-/* El elemento lateral tendrá las siguientes características:
+/* El elemento lateral tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
   - ancho 19%
-  - tamaño de fuente de 3/4 de la inicial
+  - tamaÃƒÂ±o de fuente de 3/4 de la inicial
 
-/* El pie del documento tendrá las siguientes características: 
-  - tamaño de fuente de 3/4 de la inicial 
+/* El pie del documento tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas: 
+  - tamaÃƒÂ±o de fuente de 3/4 de la inicial 
   - relleno del texto 5px por arriba y abajo 
   - color de la fuente blanco
   - color de fondo: #233C9B 
