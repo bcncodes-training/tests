@@ -2,10 +2,21 @@
 /* El bloque de reset tendrá las siguientes características:
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
-
+body{
+  margin: 0%;
+  padding: 0px;
+  font: 1em sans-serif;
+  background-color: #F2F5FE;
+  background-image: url("./fondo.gif");
+  background-attachment: fixed;
+  background: repeat-x;
+}
 /* El contenedor tendrá las siguientes características: 
   ancho 80% color de fondo blanco */
-
+.contenedor1{
+  width: 80%
+  background-color: white;
+}
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
 Color:#233C9B
@@ -13,7 +24,19 @@ Padding: 10px;
 Texto:
 color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
 Altura de línea: 35px*/
-
+header{
+  text-decoration-color: #FFF;
+  background-color: #233C9B;
+  padding:10px ;
+  font: #fff georgia,serif 260%;
+  
+}
+a:hover#cambiocolor{
+  color:#B5C4E3; 
+}
+a>h1>#color>{
+  color:white;
+}
 /* Al menú de navegación se le aplicará el siguiente formato: 
   - Estará centrado con respecto a la cabecera
   - los elementos estarán separados por un espacio de 5px
@@ -23,16 +46,40 @@ Altura de línea: 35px*/
   - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+.navegacion{
+  text-align: center;
+  position: center;
+  font-size: 3/4%;
+  font-style: bold;
 
+}
+.navegacion>a:link{
+  background:#253575;
+  color:#B5C4E3; 
+}
+.navegacion>nav>ul>li{
+  display:inline-block;
+  margin-rigth:50px;
+  list-style-type: none;
+}
 
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
   - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
-
+*/
+main{
+  width: 79%;
+}
 /* El elemento lateral tendrá las siguientes características:
   - ancho 19%
   - tamaño de fuente de 3/4 de la inicial
-
+  */
+aside{
+  float:right;
+  margin-right: 20px;
+  font-size: 50%;
+  width: 19%;
+}
 /* El pie del documento tendrá las siguientes características: 
   - tamaño de fuente de 3/4 de la inicial 
   - relleno del texto 5px por arriba y abajo 
@@ -40,4 +87,13 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-
+footer{
+  text-align: center;
+  font: size 25%;
+  background-color: #233C9B;
+  height: 40px
+}
+p#footer{
+  color:white;
+  position: center
+}
