@@ -25,9 +25,11 @@ Padding: 10px;
 color:#FFF;
 font-family: georgia, serif;
 font-size: 260% ;
-text-decoration: underline;
 line-height: 35px;
+}
 
+.Header a {
+  color: #FFF;
 }
 
 .Menu {
