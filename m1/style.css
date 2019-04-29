@@ -3,16 +3,42 @@
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
 
-/* El contenedor tendrá las siguientes características: 
-  ancho 80% color de fondo blanco */
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  font-weight: 160%;
+  background-image: url(./fondo.gif);
+
+  
+}
+
+.cuerpo{
+  margin: 10%;
+  background-color: #F2F5FE;
+
+}
 
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
 Color:#233C9B
 Padding: 10px;
 Texto:
-color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
+color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: ; 
 Altura de línea: 35px*/
+
+.titulo{
+  padding: 10px;
+  background: #233C9B;
+  color: #FFF;
+  font-weight: 35px;
+  
+}
+.titulo:hover{
+  color:#B5C4E3;
+}
+
 
 /* Al menú de navegación se le aplicará el siguiente formato: 
   - Estará centrado con respecto a la cabecera
@@ -23,7 +49,33 @@ Altura de línea: 35px*/
   - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+  nav {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    list-style: none;
+  
+  }
+  img{
+    width:200px;
+    height:200px;
+    display: block;
+    margin: auto;
+   } 
 
+  article {
+    float: left;
+    text-align: center justify;
+    width: 79%;
+  }
+  aside {
+    float: right;
+    width: 19%;
+}
 
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
