@@ -1,61 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>EXERCICI HTML-CSS</title>
-<!-- <link rel="stylesheet" href="css/style.css">	 -->
-	
-	
 </head>
 
-
 <body>
- 
- <!-- Cabecera -->
-     <!-- Título con hipertexto al propio contenido del web-->    
-      Mi sitio web 
-     <!-- Menú de navegación -->   
+        <div id="container">
+     
+         <!-- Cabecera -->
+             <!-- Título con hipertexto al propio contenido del web-->    
+           
+                        <h1>Mi sitio web</h1>
+             <!-- Menú de navegación -->   
+                <nav> 
+                     <ul>
+                        <li>Inicio</li>
+                        <li>Blog</li>
+                        <li>Sobre mi</li>
+                        <li>Fotos</li>
+                        <li>Portfolio</li>
+                        <li>Contacto</li>
+                        <li>Enlaces</li>
+                        </ul>
+         
+                </nav>  
+                <main id="principal">  
+         <!-- Contenido Principal -->
+          <!-- 1. fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->   
+          <!-- 2. Texto -->   
+          <img src="koala.jpg" alt= "un coala en un arbol" />   
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
+                    <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
+                </main> 
+                    <!-- Contenido relacionado-->
+        <!-- Tres apartados con lista desordenada de enlaces:-->
+                <aside>
+                Categorías
+                <ul>
+                        <li><a href="#"></a>Categoría</li>
+                        <li>Categoría 2</li>
+                        <li>Cateogría 3</li>
+                        <li>Categoría 4</li>
+                        <li>Categoría 5</li>
+                </ul>
+                
+                Archivo
+                <ul>
+                        <li>Marzo 2019</li>
+                        <li>Febrero 2019</li>
+                        <li>Enero 2019</li>
+                        <li>Diciembre 2018</li>
+                </ul>
         
-                Inicio
-                Blog
-                Sobre mi
-                Fotos
-                Portfolio
-                Contacto
+        
                 Enlaces
-        
- <!-- Contenido Principal -->
-  <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->   
-  <!-- 2. Texto -->           
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
-            <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
-<!-- Contenido relacionado-->
-<!-- Tres apartados con lista desordenada de enlaces:
-        1. Categorías
-
-                Categoría 1
-                Categoría 2
-                Cateogría 3
-                Categoría 4
-                Categoría 5
-        
-        2. Archivo
-                Marzo 2019
-                Febrero 2019
-                Enero 2019
-                Diciembre 2018
-
-
-        3. Enlaces
-                Enlace 1
-                Enlace 2
-                ...
-                Enlace 5
-
-<!-- Pie de pagina -->
-            © 2019 Vuestro nombre y apellidos
+                <ul>
+                        <li>Enlace 1</li>
+                        <li>Enlace 2</li>
+                        <li>Enlace 3</li>
+                        <li>Enlace 4</li>
+                        <li>Enlace 5</li>
+                </ul>
+                </aside>
+               
+        <footer id="formato_pie">
+        <!-- Pie de pagina -->
+                    © 2019 Ester Graña
+        </footer>
+        </div> 
 </body>
 </html>

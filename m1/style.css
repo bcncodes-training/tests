@@ -15,7 +15,7 @@ margin-left: 40%;}
     position:relative;
     width: 80%;
     margin-left: 10%;
-    border: 1px solid black;
+    border: 1px solid violet;
     overflow: auto;
   }
 h1{text-align: left;
@@ -56,9 +56,7 @@ color: white;}
     width: 79%;
     float:left;
     padding: 30px 10px 60px 10px;
-    border: 1px solid blue;
-
-     
+    border: 1px solid blue;  
   }
 
 /* El elemento lateral tendrá las siguientes características:
@@ -76,5 +74,6 @@ aside{
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-#formato_pie{    border: 1px solid green;}
+#formato_pie{    border: 1px solid green;
+}
 
