@@ -17,7 +17,6 @@ body {
 
 .cuerpo{
   margin: 10%;
-  background-color: #F2F5FE;
   overflow: hidden;
 
 }
@@ -92,6 +91,7 @@ Altura de línea: 35px*/
     background-color: #FFF;
 }
 footer{
+  clear: both;
   font-size: 90%;
   padding: 5px 0;
   color: #fff;
