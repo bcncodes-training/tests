@@ -26,9 +26,7 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-html{
-  background-color: #233C9B;
-}
+
 body{
   box-sizing:border-box;
   padding:0;
@@ -37,11 +35,28 @@ body{
   font-size:120%;
   font-weight:160%;
   background-color: #F2F5FE;
-  background-image: src ('img/fondo.gif');
+  background-image: url('../img/fondo.gif');
+  background-repeat: repeat-x;
   width:80%;
   margin-right:10%;
   margin-left:10%;
   
+}
+h1{
+  text-align:center;
+  background-color: #233C9B;
+}
+h1 a{
+  color:white ;
+  text-align:center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:260%;
+  font-weight: 700;
+}
+h1 a:hover{
+  
+color:#B5C4E3;
+cursor:auto;
 }
 /* El contenedor tendrá las siguientes características: 
   ancho 80% color de fondo blanco */
@@ -65,6 +80,7 @@ ul.menu_nav{
   position:relative;
 
 }
+
 .menu_nav li{
   display: inline;
   text-align: center;
@@ -76,8 +92,12 @@ ul.menu_nav{
   text-decoration: none;
   color:#B5C4E3;
   font-size:75%,
+
 }
 
+.menu_nav li a:hover{
+  cursor:pointer;
+}
 .grande{
   float:left;
   width:60%;
@@ -91,4 +111,17 @@ ul.menu_nav{
 }
 .clear{
   clear:both;
+}
+footer{
+  background-color: #233C9B ;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+footer .container{
+  text-align:center;
+}
+footer a{
+  text-align:center;
+  color:white;
+
 }
