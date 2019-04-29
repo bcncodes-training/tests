@@ -1,10 +1,25 @@
-
 /* El bloque de reset tendrá las siguientes características:
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
+html{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana, sans-serif;
+  font-size: 1.2em; 
+  line-height: 1.6em;
+  background: #f2f5fe;
+  background:url(./fondo.gif);
+  background-repeat: repeat-x;
+}
 
 /* El contenedor tendrá las siguientes características: 
   ancho 80% color de fondo blanco */
+body{
+  width: 80%;
+  background: #fff;
+  margin: auto;
+}
 
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
@@ -13,6 +28,22 @@ Padding: 10px;
 Texto:
 color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
 Altura de línea: 35px*/
+h1{
+  background: #233c9b;
+  padding: 10px;
+}
+
+h1 a{
+  color: #fff;
+  font-family: Georgia, serif;
+  font-size: 2.6rem; 
+  line-height: 35px;
+}
+
+h1 a:hover{
+  color: #b5c4e3;
+
+}
 
 /* Al menú de navegación se le aplicará el siguiente formato: 
   - Estará centrado con respecto a la cabecera
@@ -23,15 +54,55 @@ Altura de línea: 35px*/
   - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+  #navegacion ul{
+
+  }
+
+  #navegacion ul li {
+    text-align: center;
+    float: left;
+    margin: 5px;
+    color: #b5c4e3;
+    font-weight: bold;
+    list-style-type: none;
+    background: #253575;
+    padding: 5px 15px;
+  }
+
+
+  #navegacion ul li:hover{
+    background: #31479B;
+  } 
+
+  #navegacion ul li a{
+    color: #B5C4E3;
+    text-decoration: none;
+    font-size: 0.75em;
+    display:block;
+
+  }
 
 
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
   - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+  .main{
+    width: 79%;
+    float:left;
+    padding: 30px, 10px, 60px, 10px;
+  }
+
+
+
 
 /* El elemento lateral tendrá las siguientes características:
   - ancho 19%
-  - tamaño de fuente de 3/4 de la inicial
+  - tamaño de fuente de 3/4 de la inicial*/
+  aside{
+    width: 19%;
+    float: right;
+
+  }
 
 /* El pie del documento tendrá las siguientes características: 
   - tamaño de fuente de 3/4 de la inicial 
