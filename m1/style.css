@@ -10,6 +10,7 @@ body {
   font-size: 120%;
   font-weight: 160%;
   background-image: url(./fondo.gif);
+  background-repeat: repeat-x;
 
   
 }
@@ -50,16 +51,22 @@ Altura de línea: 35px*/
   - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
-  nav {
-    position: relative;
-    display: block;
+  nav ul{
+    text-align: center;
+  }
+  nav ul li{
+    background-color: #253575;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+  }
+  nav ul li a{
+    font-size: 95%;
     text-decoration: none;
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    width: 100%;
-    list-style: none;
-  
+    color: #b5c4e3;
+  }
+  nav ul li:hover{
+    background-color: #31479b;
   }
   img{
     width:200px;
@@ -67,20 +74,29 @@ Altura de línea: 35px*/
     display: block;
     margin: auto;
    } 
+   figcaption{
+    text-align: center;
+  }
 
   article {
-    float: left;
-    text-align: center justify;
     width: 79%;
+    float: left;
+    padding: 30px 10px 60px 10px;
+    background-color: #FFF;
   }
   aside {
-    float: right;
     width: 19%;
+    float: left;
+    font-size: 0.85rem;
+    padding: 30px 10px 60px 10px;
+    background-color: #FFF;
 }
 footer{
-  padding: 10px;
+  font-size: 90%;
+  padding: 5px 0;
+  color: #fff;
+  text-align: center; 
   background: #233C9B;
-  color: #FFF;
   font-weight: 39px;
 } 
 
