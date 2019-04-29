@@ -9,7 +9,7 @@ header{background-color: #233C9B;color: #f9f9fd;text-align: left;}
 header>div{font-family: Georgia, 'Times New Roman', Times, serif !important;font-size: 260%;padding: 10px;line-height: 35px;text-decoration-color: #fbf9f9;}
 header a{color: #FFF;}
 header:hover{color: #B5C4E3;}
-body{text-align: center;margin: 0 10%;position: relative;display: inline-block;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body{text-align: center;margin: 0 10%;position: relative;display: inline-block;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 120%;line-height: 160%;}
 body>div:first-of-type{background-color: white;position: relative;display: inline-block;}
 p{text-align: justify;margin: 20px 0;}
 body>div>ul:first-of-type{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;/*! background-color: #253575; */}
