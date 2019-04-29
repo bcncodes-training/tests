@@ -3,9 +3,6 @@
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
 
-/* El contenedor tendrá las siguientes características: 
-  ancho 80% color de fondo blanco */
-
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
 Color:#233C9B
@@ -13,17 +10,6 @@ Padding: 10px;
 Texto:
 color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
 Altura de línea: 35px*/
-
-/* Al menú de navegación se le aplicará el siguiente formato: 
-  - Estará centrado con respecto a la cabecera
-  - los elementos estarán separados por un espacio de 5px
-  - la fuente  será 3/4 de la inicial, en negrita y de color #B5C4E3
-  - los enlaces no estarán subrayados
-  - el cursor tomará la forma de puntero al pasar por encima
-  - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
-  - El fondo del elemento será #253575
-  - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
-
 
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
@@ -40,4 +26,69 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
+html{
+  background-color: #233C9B;
+}
+body{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:120%;
+  font-weight:160%;
+  background-color: #F2F5FE;
+  background-image: src ('img/fondo.gif');
+  width:80%;
+  margin-right:10%;
+  margin-left:10%;
+  
+}
+/* El contenedor tendrá las siguientes características: 
+  ancho 80% color de fondo blanco */
 
+
+/* Al menú de navegación se le aplicará el siguiente formato: 
+  - Estará centrado con respecto a la cabecera
+  - los elementos estarán separados por un espacio de 5px
+  - la fuente  será 3/4 de la inicial, en negrita y de color #B5C4E3
+  - los enlaces no estarán subrayados
+  - el cursor tomará la forma de puntero al pasar por encima
+  - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
+  - El fondo del elemento será #253575
+  - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+
+ul.menu_nav{
+  list-style-type: none;
+  text-align: center;
+  border:0 0 1px 0;
+  border-color:black;
+  position:relative;
+
+}
+.menu_nav li{
+  display: inline;
+  text-align: center;
+  margin:0 10px 0 10px;
+  background:blue;
+ 
+}
+.menu_nav li a{
+  text-decoration: none;
+  color:#B5C4E3;
+  font-size:75%,
+}
+
+.grande{
+  float:left;
+  width:60%;
+  margin-left:10%;
+}
+.lado{
+  float:right;
+  margin-top:20%;
+  margin-right:10%;
+
+}
+.clear{
+  clear:both;
+}
