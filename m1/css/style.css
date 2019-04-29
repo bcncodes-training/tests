@@ -15,17 +15,17 @@ p{text-align: justify;margin: 20px 0;}
 body>div>ul:first-of-type{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;}
 ul:hover{cursor: pointer;}
 body>div>ul:first-of-type>li{display: inline-block;margin: 5px;background-color: #253575;padding: 5px 15px;}
-body>div>ul:first-of-type>li:hover{background-color: #fff;}
+body>div>ul:first-of-type>li:hover{background-color: #31479B;}
 main{width: 79%;display: inline-block;padding: 30px 10px 60px 10px;}
 figure>img{height: 200px;width: 200px;}
 aside{float: right;width: 19%;font-size: 0.75em;}
 aside>ol{/*! text-align: left; */padding: 5px;}
 aside ul{margin-left: 40px !important;}
-ol>li{display: block;font-weight: bold;padding: 10px;text-align: left;}
+ol>li{display: block;font-weight: bold;/*! padding: 10px; */text-align: left;}
 li>ul{font-weight: normal;margin: 10px;margin: 10px 0;list-style-type: disc;}
 li>ul>li{margin: 10px 0;}
-footer{font-size: 0.75em;color: #fff;background-color: #233C9B;position: relative;display: flex;align-items: end;height: 40px;}
-footer>span{width: 100%;padding: 5px 0;}
+footer{font-size: 0.75em;color: #fff;background-color: #233C9B;position: relative;height: 40px;}
+footer>span{width: 100%;padding: 5px 0;line-height: 3em;}
 /* El bloque de reset tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
 . mÃƒÂ¡rgenes, padding, fuente (verdana, sans-serif con tamaÃƒÂ±o 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
