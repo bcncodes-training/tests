@@ -26,7 +26,9 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   box-sizing:border-box;
   padding:0;
@@ -88,15 +90,24 @@ ul.menu_nav{
   background:blue;
  
 }
+.menu_nav li:hover{
+  background-color: #31479B;
+}
 .menu_nav li a{
   text-decoration: none;
   color:#B5C4E3;
-  font-size:75%,
+  font-size:75%;
+  margin:0 15px 0 15px;
 
 }
 
 .menu_nav li a:hover{
   cursor:pointer;
+  background-color: #31479B;
+}
+/*mitad de 80%*/
+figure{
+  margin-left:40%;
 }
 .grande{
   float:left;
@@ -119,9 +130,11 @@ footer{
 }
 footer .container{
   text-align:center;
+  color:white;
 }
 footer a{
   text-align:center;
   color:white;
+  text-decoration:none,
 
 }
