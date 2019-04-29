@@ -1,43 +1,80 @@
-
-/* El bloque de reset tendrá las siguientes características:
-. márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
-en el eje horizontal  */
-
-/* El contenedor tendrá las siguientes características: 
-  ancho 80% color de fondo blanco */
-
-/*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
-Fondo:
-Color:#233C9B
-Padding: 10px;
-Texto:
-color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
-Altura de línea: 35px*/
-
-/* Al menú de navegación se le aplicará el siguiente formato: 
-  - Estará centrado con respecto a la cabecera
-  - los elementos estarán separados por un espacio de 5px
-  - la fuente  será 3/4 de la inicial, en negrita y de color #B5C4E3
-  - los enlaces no estarán subrayados
-  - el cursor tomará la forma de puntero al pasar por encima
-  - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
-  - El fondo del elemento será #253575
-  - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
-
-
-/* La sección principal tendrá las siguientes características:
-  - ancho: 79%
-  - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
-
-/* El elemento lateral tendrá las siguientes características:
-  - ancho 19%
-  - tamaño de fuente de 3/4 de la inicial
-
-/* El pie del documento tendrá las siguientes características: 
-  - tamaño de fuente de 3/4 de la inicial 
-  - relleno del texto 5px por arriba y abajo 
-  - color de la fuente blanco
-  - color de fondo: #233C9B 
-  - altura del elemento 40px;
-*/
-
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 120%;
+  background-color: #f2f5fe;
+  background-image: url(fondo.gif);
+  background-repeat: repeat-x;
+}
+#container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.title{
+  background-color: #233c9b;
+  padding: 10px;
+}
+.title h1{
+  color: #fff;
+  font-family: Georgia, serif;
+  font-size: 260%;
+  line-height: 35px;
+  text-decoration: underline;
+}
+.title h1:hover{
+  color: #b5c4e3;
+}
+nav ul{
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #253575;
+  padding: 5px 15px;
+}
+nav ul li a{
+  font-size: 90%;
+  color: #b5c4e3;
+  text-decoration: none;
+}
+nav ul li:hover{
+  background-color: #31479b;
+}
+.main-img img{
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -18px;
+  display: block;
+}
+figcaption{
+  text-align: center;
+}
+.main{
+  width: 79%;
+  float: left;
+  padding: 30px 10px 60px 10px;
+}
+.aside{
+  width: 19%;
+  float: left;
+  font-size: 0.85rem;
+}
+.aside p{
+  font-weight: bold;
+}
+footer{
+  clear: both;
+  background-color: #233c9b;
+  height: 40px;
+}
+footer p{
+  font-size: 90%;
+  padding: 5px 0;
+  color: #fff;
+  text-align: center; 
+}
