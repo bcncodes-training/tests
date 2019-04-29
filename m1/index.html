@@ -1,58 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset=utf-8"/>
-<title>EXERCICI HTML-CSS</title>
-<!-- <link rel="stylesheet" href="css/style.css">	 -->
-	
-	
+        <meta charset=utf-8" />
+        <title>EXERCICI HTML-CSS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-
 <body>
- 
- <!-- Cabecera -->
-     <!-- Título con hipertexto al propio contenido del web-->    
-      Mi sitio web 
-     <!-- Menú de navegación -->   
-        
-                Inicio
-                Blog
-                Sobre mi
-                Fotos
-                Portfolio
-                Contacto
-                Enlaces
-        
- <!-- Contenido Principal -->
-  <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->   
-  <!-- 2. Texto -->           
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
-            <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
-<!-- Contenido relacionado-->
-<!-- Tres apartados con lista desordenada de enlaces:
-        1. Categorías
-
-                Categoría 1
-                Categoría 2
-                Cateogría 3
-                Categoría 4
-                Categoría 5
-        
-        2. Archivo
-                Marzo 2019
-                Febrero 2019
-                Enero 2019
-                Diciembre 2018
-
-
-        3. Enlaces
-                Enlace 1
-                Enlace 2
-                ...
-                Enlace 5
-
-<!-- Pie de pagina -->
-            © 2019 Vuestro nombre y apellidos
+        <div id="container">
+                <header id="cabecera">
+                        <h1 id="texth1">Mi sitio web</h1>
+                </header>
+                <div id="primera">
+                        <div>
+                                <ul id="menuNavegacion">
+                                        <li><a href="#" title="Volver al inicio"><span>Inicio</span></a></li>
+                                        <li><a href="#" title="Blog"><span>Blog</span></a></li>
+                                        <li><a href="#" title="Sobre mi"><span>Sobre mi</span></a></li>
+                                        <li><a href="#" title="Fotos"><span>Fotos</span></a></li>
+                                        <li><a href="#" title="Portfolio"><span>Portfolio</span></a></li>
+                                        <li><a href="#" title="Contacto"><span>Contacto</span></a></li>
+                                        <li><a href="#" title="Enlaces"><span>Enlaces</span></a></li>
+                                </ul>
+                                <figure>
+                                        <img id="fotoKoala" src="koala.jpg" alt="koala">
+                                        <figcaption>
+                                                <h3>Figura: descripción de la foto</h3>
+                                        </figcaption>
+                                </figure>
+                        </div>
+                        <div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                        ornare sapien ac nibh
+                                        vulputate feugiat. Morbi euismod velit sit amet libero volutpat
+                                        ultrices in quis
+                                        sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus
+                                        accumsan
+                                        faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum
+                                        urna, in
+                                        consequat est tincidunt vitae. Cras et ligula at felis placerat
+                                        tempor. Fusce
+                                        elementum metus non justo luctus iaculis.</p>
+                                <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida
+                                        turpis. Aenean nec
+                                        scelerisque felis. Integer nec odio sed lorem mattis rhoncus
+                                        quis quis nibh.
+                                        Praesent non fringilla nisi. Duis porta placerat mattis. Aenean
+                                        in mollis odio,
+                                        at egestas massa. Quisque in lectus magna. Vestibulum vel
+                                        faucibus massa, vel
+                                        varius tortor. Maecenas et laoreet neque, ut semper neque.
+                                        Suspendisse aliquet,
+                                        nisl vel pharetra ultricies, elit felis molestie sem, ac
+                                        scelerisque turpis
+                                        tortor non lacus.</p>
+                                <aside id="lateral">
+                                        <ol>
+                                                <li>Categorías</li>
+                                                <ul>
+                                                        <li>Categoría 1</li>
+                                                        <li>Categoría 2</li>
+                                                        <li>Cateogría 3</li>
+                                                        <li>Categoría 4</li>
+                                                        <li>Categoría 5</li>
+                                                </ul>
+                                                <li>Archivo</li>
+                                                <ul>
+                                                        <li>Marzo 2019</li>
+                                                        <li>Febrero 2019</li>
+                                                        <li>Enero 2019</li>
+                                                        <li>Diciembre 2018</li>
+                                                </ul>
+                                                <li>Enlaces</li>
+                                                <ul>
+                                                        <li>Enlace 1</li>
+                                                        <li>Enlace 2</li>
+                                                        <li>Enlace 3</li>
+                                                        <li>Enlace 4</li>
+                                                        <li>Enlace 5</li>
+                                                </ul>
+                                        </ol>
+                                </aside>
+                        </div>
+                        <div class="clear"></div>
+                </div>
+                <footer id="peu">
+                        <p>© 2019 Jordi Martín Rosell</p>
+                </footer>
+        </div>
 </body>
+
 </html>

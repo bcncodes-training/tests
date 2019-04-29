@@ -1,43 +1,101 @@
+body {
+  /* Reset */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: verdana, sans-serif;
+  font-size: 120%;
+  font-weight: 160%;
+  background-image: "fondo.gif";
+  background-repeat: repeat;
+  background-color: #f2f5fe;
+}
+#container {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: white;
+  overflow: auto;
+}
 
-/* El bloque de reset tendrá las siguientes características:
-. márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
-en el eje horizontal  */
+#cabecera {
+  background-color: #233C9B;
+  Padding: 10px;
+}
 
-/* El contenedor tendrá las siguientes características: 
-  ancho 80% color de fondo blanco */
+#cabecera a:hover {
+  color: #b5c4e3;
+}
+#texth1{
+  color: #FFF;
+  font-family: georgia, serif;
+  font-size: 260%;
+  height: 35px;
 
-/*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
-Fondo:
-Color:#233C9B
-Padding: 10px;
-Texto:
-color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
-Altura de línea: 35px*/
+}
 
-/* Al menú de navegación se le aplicará el siguiente formato: 
-  - Estará centrado con respecto a la cabecera
-  - los elementos estarán separados por un espacio de 5px
-  - la fuente  será 3/4 de la inicial, en negrita y de color #B5C4E3
-  - los enlaces no estarán subrayados
-  - el cursor tomará la forma de puntero al pasar por encima
-  - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
-  - El fondo del elemento será #253575
-  - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+#fotoKoala {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
 
+#menuNavegacion li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 75%;
+  font-style: bold;
+  background-color: #253575;
+}
 
-/* La sección principal tendrá las siguientes características:
-  - ancho: 79%
-  - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+#menuNavegacion li a {
+  color: #b5c4e3;
+  text-decoration-line: none;
+}
 
+#menuNavegacion a:hover { 
+  background-color: #31479B;
+  cursor: pointer;
+}
+
+ul#menuNavegacion{
+  text-align: center;
+  
+}
+#primera p {
+  align-content: center;
+  float: left;
+  width: 79%;
+  top: 30px;
+  right: 10px;
+  bottom: 60px;
+  left: 10px;
+}
 /* El elemento lateral tendrá las siguientes características:
   - ancho 19%
-  - tamaño de fuente de 3/4 de la inicial
+  - tamaño de fuente de 3/4 de la inicial */
 
-/* El pie del documento tendrá las siguientes características: 
-  - tamaño de fuente de 3/4 de la inicial 
-  - relleno del texto 5px por arriba y abajo 
-  - color de la fuente blanco
-  - color de fondo: #233C9B 
-  - altura del elemento 40px;
-*/
-
+#lateral {
+  float: right;
+  width: 19%;
+  font-size: 75%;
+}
+#clear{
+  clear: both;
+}
+#peu {
+  display: inline-block;
+  text-align: center;
+  font-size: 75%;
+  width: 100%;
+  top: 5px;
+  bottom: 5px;
+  color: white;
+  background-color: #233C9B;
+  height: 40px;
+}
