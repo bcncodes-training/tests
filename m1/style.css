@@ -4,7 +4,11 @@ en el eje horizontal  */
 body{margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120% 160%;
   background-color: (#F2F5FE);
+  background-image: url(fondo.gif);
+  background-repeat: repeat-x;
+
 }
 img {width: 200px;
 height: 200px;
@@ -17,9 +21,14 @@ margin-left: 40%;}
     margin-left: 10%;
     border: 1px solid violet;
     overflow: auto;
+    background-color: #F2F5FE;
   }
 h1{text-align: left;
-background-color: blue;}
+background-color: #233C9B;
+padding: 10px; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 260%;
+color: #FFF;}
 
 
  
@@ -48,7 +57,9 @@ background-color: #253575;}
     border: 1px solid red;
   font-size: 75%;
 font-style: black;
-color: white;}
+color: white;
+}
+
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
   - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
@@ -64,7 +75,8 @@ color: white;}
   - tamaño de fuente de 3/4 de la inicial*/
   
 aside{
-  float:right
+  float:right;
+  border: 1px solid yellow;  
 }
 
 /* El pie del documento tendrá las siguientes características: 
@@ -74,6 +86,12 @@ aside{
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-#formato_pie{    border: 1px solid green;
-}
+footer{ border: 1px solid green;
+  float:left;
 
+}
+.columna_dreta{margin:0;
+  padding: 0;
+  margin-right: 5%;
+
+}
