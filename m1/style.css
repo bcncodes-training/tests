@@ -1,23 +1,28 @@
-body{margin: 0;
-  padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#container{
-  width: 80%;
-position: relative;
-}
-#principal{
-  float:right;
-}
-#aside{float:right
-}
 /* El bloque de reset tendrá las siguientes características:
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
-
+body{margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: (#F2F5FE);
+}
+img {width: 200px;
+height: 200px;
+margin-left: 40%;}
 /* El contenedor tendrá las siguientes características: 
   ancho 80% color de fondo blanco */
+  #container{
+    position:relative;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid black;
+    overflow: auto;
+  }
+h1{text-align: left;
+background-color: blue;}
 
+
+ 
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
 Color:#233C9B
@@ -35,15 +40,34 @@ Altura de línea: 35px*/
   - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
-
-
+  nav li {display:inline;
+    border: 1px solid yellow;
+  padding: 5px 15px 5px 15px;
+background-color: #253575;}
+  nav {text-align: center;
+    border: 1px solid red;
+  font-size: 75%;
+font-style: black;
+color: white;}
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
   - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+  #principal{
+    width: 79%;
+    float:left;
+    padding: 30px 10px 60px 10px;
+    border: 1px solid blue;
+
+     
+  }
 
 /* El elemento lateral tendrá las siguientes características:
   - ancho 19%
-  - tamaño de fuente de 3/4 de la inicial
+  - tamaño de fuente de 3/4 de la inicial*/
+  
+aside{
+  float:right
+}
 
 /* El pie del documento tendrá las siguientes características: 
   - tamaño de fuente de 3/4 de la inicial 
@@ -52,4 +76,5 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
+#formato_pie{    border: 1px solid green;}
 
