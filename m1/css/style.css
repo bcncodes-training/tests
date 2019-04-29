@@ -1,4 +1,5 @@
 body {
+  cursor: default;
   margin: 0;
 	padding: 0;
   border: 0;
@@ -6,8 +7,9 @@ body {
   font-size: 120%;
   line-height: 160%;
   background-color: #F2F5FE;
-  background-image: url("images/fondo.gif");
+  background-image: url("../images/fondo.gif");
   background-repeat: repeat-x;
+
 
 }
 
@@ -22,7 +24,6 @@ body {
 .Header {
 background-color:#233C9B;
 Padding: 10px;
-color:#FFF;
 font-family: georgia, serif;
 font-size: 260% ;
 line-height: 35px;
@@ -32,20 +33,31 @@ line-height: 35px;
   color: #FFF;
 }
 
+.Header a:hover {
+  color: #B5C4E3;
+}
+
 .Menu {
   text-align: center;
 }
 
-li.Nav {
-  position: relative;
-  display: inline-block;
+ul.Nav {
+  display: ruby;
+}
+
+li > a.Nav {
+  text-decoration: none;
   margin: 5px;
   padding: 5px 15px 5px 15px;
   color: #B5C4E3;
   font-size: 0.75em;
   background-color: #253575;
-  text-decoration: none;
-  cursor: pointer;
+  cursor: pointer; ;
+  font-weight: bold;
+}
+
+a.Nav:hover {
+  background-color: #31479B;
 }
 
 .Imagen {
