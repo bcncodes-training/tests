@@ -110,15 +110,21 @@ ul.menu_nav{
 figure{
   margin-left:40%;
 }
+main{
+  background-color: white;
+}
 .grande{
   float:left;
   width:60%;
   margin-left:10%;
+  background-color: white;
 }
 .lado{
   float:right;
-  margin-top:20%;
+  margin-top:0%;
   margin-right:10%;
+  background-color: white;
+
 
 }
 .clear{
