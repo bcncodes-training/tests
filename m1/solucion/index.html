@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta "charset=utf-8" />
+        <title>EXERCICI HTML-CSS</title>
+        <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body class="reset general">
+        <div class="container">
+                <!-- Cabecera -->
+                <!-- Título con hipertexto al propio contenido del web-->
+                <header class="cabecera">
+                        <h1><a href="./">Mi sitio web</a></h1>
+                </header>
+
+                <!-- Menú de navegación -->
+                <nav>
+                        <ul class="menu-items">
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Sobre mi</a></li>
+                                <li><a href="#">Fotos</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Enlaces</a></li>
+                        </ul>
+                </nav>
+
+                <!-- Contenido Principal -->
+                <main class="principal">
+                        <figure class="figura">
+
+                                <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->
+                                <img src="koala.jpg" alt="koala enfurecido mirando al público" class="imagen">
+                                <figcaption>Koala enfurecido</figcaption>
+                        </figure>
+                        <!-- 2. Texto -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh
+                                vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem.
+                                Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec
+                                vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae.
+                                Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.
+                        </p>
+                        <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque
+                                felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla
+                                nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in
+                                lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet
+                                neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis
+                                molestie sem, ac scelerisque turpis tortor non lacus.</p>
+                </main>
+                <aside class="lateral">
+
+                        <!-- Contenido relacionado-->
+                        <!-- Tres apartados con lista desordenada de enlaces:-->
+                        <h3>Categorías</h3>
+                        <ul class="lista-categorias">
+                                <li><a href="#">Categoria1</a></li>
+                                <li><a href="#">Categoria2</a></li>
+                                <li><a href="#">Categoria3</a></li>
+                                <li><a href="#">Categoria4</a></li>
+                                <li><a href="#">Categoria5</a></li>
+                        </ul>
+                        <h3>Archivo</h3>
+                        <ul class="archivo">
+                                <li><a href="#">Marzo 2019</a></li>
+                                <li><a href="#">Febrero 2019</a></li>
+                                <li><a href="#">Enero 2019</a></li>
+                                <li><a href="#">Diciembre 2018</a></li>
+                        </ul>
+
+                        <!-- ul.lista-enlaces>li*5>a:link>{enlace$} -->
+                        <h3>Enlaces</h3>
+                        <ul class="lista-enlaces">
+                                <li><a href="#">enlace1</a></li>
+                                <li><a href="#">enlace2</a></li>
+                                <li><a href="#">enlace3</a></li>
+                                <li><a href="#">enlace4</a></li>
+                                <li><a href="#">enlace5</a></li>
+                        </ul>
+                </aside>
+                <!-- Pie de pagina -->
+
+
+                <footer class="pie">
+                        <p>
+                                &copy; © 2019 George Clooney
+                        </p>
+                </footer>
+        </div>
+</body>
+
+</html>
