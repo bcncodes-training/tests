@@ -1,0 +1,152 @@
+
+/* El bloque de reset tendrá las siguientes características:
+. márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
+en el eje horizontal  */
+
+/*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
+Fondo:
+Color:#233C9B
+Padding: 10px;
+Texto:
+color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
+Altura de línea: 35px*/
+
+/* La sección principal tendrá las siguientes características:
+  - ancho: 79%
+  - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+
+/* El elemento lateral tendrá las siguientes características:
+  - ancho 19%
+  - tamaño de fuente de 3/4 de la inicial
+
+/* El pie del documento tendrá las siguientes características: 
+  - tamaño de fuente de 3/4 de la inicial 
+  - relleno del texto 5px por arriba y abajo 
+  - color de la fuente blanco
+  - color de fondo: #233C9B 
+  - altura del elemento 40px;
+*/
+html{
+  scroll-behavior: smooth;
+}
+body.reset{
+  padding:0;
+  box-sizing: border-box;
+  margin:0;
+}
+body.general{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:120%;
+  font-weight:160%;
+  background-color: #F2F5FE;
+  background-image: url('../img/fondo.gif');
+  background-repeat: repeat-x;
+  width:80%;
+  margin-right:10%;
+  margin-left:10%;
+  
+}
+
+h1{
+  text-align:center;
+  background-color: #233C9B;
+}
+h1 a{
+  color:white ;
+  text-align:center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:260%;
+  font-weight: 700;
+}
+h1 a:hover{
+  
+color:#B5C4E3;
+cursor:auto;
+}
+/* El contenedor tendrá las siguientes características: 
+  ancho 80% color de fondo blanco */
+
+
+/* Al menú de navegación se le aplicará el siguiente formato: 
+  - Estará centrado con respecto a la cabecera
+  - los elementos estarán separados por un espacio de 5px
+  - la fuente  será 3/4 de la inicial, en negrita y de color #B5C4E3
+  - los enlaces no estarán subrayados
+  - el cursor tomará la forma de puntero al pasar por encima
+  - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
+  - El fondo del elemento será #253575
+  - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+
+ul.menu_nav{
+  list-style-type: none;
+  text-align: center;
+  border:0 0 1px 0;
+  border-color:black;
+  position:relative;
+
+}
+
+.menu_nav li{
+  display: inline;
+  text-align: center;
+  margin:0 10px 0 10px;
+  background:blue;
+ 
+}
+.menu_nav li:hover{
+  background-color: #31479B;
+}
+.menu_nav li a{
+  text-decoration: none;
+  color:#B5C4E3;
+  font-size:75%;
+  margin:0 15px 0 15px;
+
+}
+
+.menu_nav li a:hover{
+  cursor:pointer;
+  background-color: #31479B;
+}
+/*mitad de 80%*/
+figure{
+  margin-left:40%;
+}
+main{
+  background-color: white;
+}
+.grande{
+  float:left;
+  width:60%;
+  margin-left:10%;
+  background-color: white;
+}
+.lado{
+  float:right;
+  margin-top:0%;
+  margin-right:10%;
+  background-color: white;
+
+
+}
+.clear{
+  clear:both;
+}
+footer{
+  background-color: #233C9B ;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+footer .container{
+  text-align:center;
+  color:white;
+}
+footer a{
+  text-align:center;
+  color:white;
+  text-decoration:none,
+
+}
