@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta charset=utf-8"/>
-<title>EXERCICI HTML-CSS</title>
-<!-- <link rel="stylesheet" href="css/style.css">	 -->
-	
-	
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>EXERCICI HTML-CSS</title>
+        <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
- 
- <!-- Cabecera -->
-     <!-- Título con hipertexto al propio contenido del web-->    
-      Mi sitio web 
-     <!-- Menú de navegación -->   
-        
-                Inicio
-                Blog
-                Sobre mi
-                Fotos
-                Portfolio
-                Contacto
-                Enlaces
-        
- <!-- Contenido Principal -->
-  <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->   
-  <!-- 2. Texto -->           
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
-            <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
-<!-- Contenido relacionado-->
-<!-- Tres apartados con lista desordenada de enlaces:
-        1. Categorías
-
-                Categoría 1
-                Categoría 2
-                Cateogría 3
-                Categoría 4
-                Categoría 5
-        
-        2. Archivo
-                Marzo 2019
-                Febrero 2019
-                Enero 2019
-                Diciembre 2018
-
-
-        3. Enlaces
-                Enlace 1
-                Enlace 2
-                ...
-                Enlace 5
-
-<!-- Pie de pagina -->
-            © 2019 Vuestro nombre y apellidos
+        <div id="container">
+                <header>
+                        <div class="title">
+                                <a href="/">
+                                        <h1>Mi sitio web</h1>
+                                </a>
+                        </div>
+                        
+                        <nav>
+                                <ul>
+                                        <li><a href="#">Inicio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Sobre mi</a></li>
+                                        <li><a href="#">Fotos</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Contacto</a></li>
+                                        <li><a href="#">Enlaces</a></li>
+                                </ul>
+                        </nav>
+                </header>
+                
+                <div class="main">   
+                        <figure class="main-img">
+                                <img src="koala.jpg" alt=""> 
+                                <figcaption>Figura: descripción foto</figcaption>  
+                        </figure>     
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
+                        <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
+                </div>       
+                <div class="aside">
+                        <p>Categorías</p>
+                        <ul>
+                                <li><a href="#">Categoría 1</a></li>
+                                <li><a href="#">Categoría 2</a></li>
+                                <li><a href="#">Categoría 3</a></li>
+                                <li><a href="#">Categoría 4</a></li>
+                                <li><a href="#">Categoría 5</a></li>
+                        </ul>
+                        <br>
+                        <p>Archivo</p>
+                        <ul>
+                                <li><a href="#">Marzo 2019</a></li>
+                                <li><a href="#">Febrero 2019</a></li>
+                                <li><a href="#">Enero 2019</a></li>
+                                <li><a href="#">Diciembre 2018</a></li>
+                        </ul>
+                        <br>
+                        <p>Enlaces</p>
+                        <ul>
+                                <li><a href="#">Enlace 1</a></li>
+                                <li><a href="#">Enlace 2</a></li>
+                                <li><a href="#">Enlace 3</a></li>
+                                <li><a href="#">Enlace 4</a></li>
+                                <li><a href="#">Enlace 5</a></li>
+                        </ul>
+                </div>
+                <footer>
+                        <p>© 2019 Angela Turizo Pinzón</p> 
+                </footer>
+        </div>
 </body>
 </html>
