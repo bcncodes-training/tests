@@ -3,16 +3,43 @@
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
 
-/* El contenedor tendrá las siguientes características: 
-  ancho 80% color de fondo blanco */
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 120%;
+  font-weight: 160%;
+  background-image: url(./fondo.gif);
+  background-repeat: repeat-x;
+
+  
+}
+
+.cuerpo{
+  margin: 10%;
+  overflow: hidden;
+
+}
 
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
 Color:#233C9B
 Padding: 10px;
 Texto:
-color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
+color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: ; 
 Altura de línea: 35px*/
+
+.titulo{
+  padding: 10px;
+  background: #233C9B;
+  color: #FFF;
+  font-weight: 35px;
+  
+}
+.titulo:hover{
+  color:#B5C4E3;
+}
+
 
 /* Al menú de navegación se le aplicará el siguiente formato: 
   - Estará centrado con respecto a la cabecera
@@ -23,7 +50,55 @@ Altura de línea: 35px*/
   - los elementos tendrán un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
+  nav ul{
+    text-align: center;
+  }
+  nav ul li{
+    background-color: #253575;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+  }
+  nav ul li a{
+    font-size: 95%;
+    text-decoration: none;
+    color: #b5c4e3;
+  }
+  nav ul li:hover{
+    background-color: #31479b;
+  }
+  img{
+    width:200px;
+    height:200px;
+    display: block;
+    margin: auto;
+   } 
+   figcaption{
+    text-align: center;
+  }
 
+  article {
+    width: 79%;
+    float: left;
+    padding: 30px 10px 60px 10px;
+    background-color: #FFF;
+  }
+  aside {
+    width: 19%;
+    float: left;
+    font-size: 0.85rem;
+    padding: 30px 10px 60px 10px;
+    background-color: #FFF;
+}
+footer{
+  clear: both;
+  font-size: 90%;
+  padding: 5px 0;
+  color: #fff;
+  text-align: center; 
+  background: #233C9B;
+  font-weight: 39px;
+} 
 
 /* La sección principal tendrá las siguientes características:
   - ancho: 79%
@@ -40,4 +115,3 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-
