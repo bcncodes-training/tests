@@ -1,8 +1,21 @@
-
 /* El bloque de reset tendrá las siguientes características:
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
 
+/* La sección principal tendrá las siguientes características:
+  - ancho: 79%
+  - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+
+/*RESET*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font: 120% 160% verdana, sans-serif;
+  background-color: #f2f5fe;
+  background-repeat: repeat-x;
+  background-image: url("./fondo.gif");
+}
+/*FIN RESET*/
 /* El contenedor tendrá las siguientes características: 
   ancho 80% color de fondo blanco */
 
@@ -14,6 +27,62 @@ Texto:
 color de texto: #FFF, fuente georgia, serif y tamaño 260%. Al pasar el mouse por encima tomará el color: #B5C4E3; 
 Altura de línea: 35px*/
 
+#contenedor {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  background-image: none;
+  overflow: hidden;
+  /*no aplica blackground*/
+}
+
+header {
+  background: #233c9b;
+  color: #fff;
+  font: 260% georgia serif;
+  text-decoration: none;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #b5c4e3;
+}
+
+figure {
+  width: 200px;
+  margin: auto;
+}
+
+nav {
+  margin: auto;
+  width: 600px;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #314798;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #253575;
+  padding: 5px 15px;
+  margin: 2px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  color: #b5c4e3;
+}
 /* Al menú de navegación se le aplicará el siguiente formato: 
   - Estará centrado con respecto a la cabecera
   - los elementos estarán separados por un espacio de 5px
@@ -24,14 +93,45 @@ Altura de línea: 35px*/
   - El fondo del elemento será #253575
   - Al pasar el mouse por encima adquirirá el color de fondo #31479B;*/
 
+main {
+  width: 79%;
+  float: left;
+  background-image: none;
+  background-color: white;
+}
 
-/* La sección principal tendrá las siguientes características:
-  - ancho: 79%
-  - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+aside {
+  float: right;
+  width: 19%;
+  background-image: none;
+  background-color: white;
+  font-size: 0.75em;
+  font-family: verdana, sans-serif;
+}
+h2 {
+  color: #314798;
+}
 
 /* El elemento lateral tendrá las siguientes características:
   - ancho 19%
   - tamaño de fuente de 3/4 de la inicial
+*/
+
+footer {
+  float: left;
+  font-size: 0.75em;
+  /* relleno del texto¿?*/
+  color: white;
+  background-color: #233c9b;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
 
 /* El pie del documento tendrá las siguientes características: 
   - tamaño de fuente de 3/4 de la inicial 
@@ -40,4 +140,3 @@ Altura de línea: 35px*/
   - color de fondo: #233C9B 
   - altura del elemento 40px;
 */
-
