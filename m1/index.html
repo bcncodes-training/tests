@@ -3,56 +3,92 @@
 <head>
 <meta charset=utf-8"/>
 <title>EXERCICI HTML-CSS</title>
+<link rel="stylesheet" href="style.css">
 <!-- <link rel="stylesheet" href="css/style.css">	 -->
-	
-	
 </head>
 
-
 <body>
- 
- <!-- Cabecera -->
-     <!-- Título con hipertexto al propio contenido del web-->    
-      Mi sitio web 
-     <!-- Menú de navegación -->   
-        
-                Inicio
-                Blog
-                Sobre mi
-                Fotos
-                Portfolio
-                Contacto
-                Enlaces
+                <header>
+                                <!-- Cabecera -->
+                             <!-- Título con hipertexto al propio contenido del web--> 
+                                <a href="https://i.imgur.com/WsXymn9.png">Mi sitio web</a>
+                        </header>
+
+        <div id="nav">
+                <ul>
+                        <!-- Menú de navegación -->   
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Sobre mi</a></li>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Enlaces</a></li>
+                </ul>
+        </div> 
+
+<div id="contenedor">
         
  <!-- Contenido Principal -->
-  <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->   
-  <!-- 2. Texto -->           
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
-            <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
+  <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->
+  <figure>
+                <img
+                  src="koala.jpg"
+                  alt="Koala"
+                />
+                <figcaption>
+                        Figura: descripción foto
+                </figcaption>
+</figure>
+
+  <!-- 2. Texto -->   
+  <section id="texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
+                <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
+  </section>
+
+  <div class="clear"></div>
+</div> 
+  <aside>
 <!-- Contenido relacionado-->
-<!-- Tres apartados con lista desordenada de enlaces:
-        1. Categorías
+<!-- Tres apartados con lista desordenada de enlaces: -->
+<section>
+        <h2>Categorías</h2>
+        <ul>
+                <li>Categoría 1</li>
+                <li>Categoría 2</li>
+                <li>Categoría 3</li>
+                <li>Categoría 4</li>
+                <li>Categoría 5</li>
+        </ul>
 
-                Categoría 1
-                Categoría 2
-                Cateogría 3
-                Categoría 4
-                Categoría 5
+</section>
+<section>
+                <h2>Archivo</h2>
+                <ul>
+                        <li>Marzo 2019</li>
+                        <li>Febrero 2019</li>
+                        <li>Enero 2019</li>
+                        <li>Diciembre 2018</li>
+                </ul>
         
-        2. Archivo
-                Marzo 2019
-                Febrero 2019
-                Enero 2019
-                Diciembre 2018
-
-
-        3. Enlaces
-                Enlace 1
-                Enlace 2
-                ...
-                Enlace 5
-
-<!-- Pie de pagina -->
-            © 2019 Vuestro nombre y apellidos
+        </section>
+        <section>
+                        <h2>Enlaces</h2>
+                        <ul>
+                                <li>Enlace 1</li>
+                                <li>Enlace 2</li>
+                                <li>Enlace 3</li>
+                                <li>Enlace 4</li>
+                                <li>Enlace 5</li>
+                        </ul>
+                
+                </section>
+  </aside>
+  <footer>
+                <!-- Pie de pagina -->
+                <p>© 2019 Fernando Soto López</p>
+  </footer>
 </body>
+
 </html>
