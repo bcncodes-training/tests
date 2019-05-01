@@ -1,58 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset=utf-8"/>
-<title>EXERCICI HTML-CSS</title>
-<!-- <link rel="stylesheet" href="css/style.css">	 -->
-	
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ejercicio Blog</title>
 </head>
 
 
 <body>
+
+<div class="container">  
  
  <!-- Cabecera -->
      <!-- Título con hipertexto al propio contenido del web-->    
-      Mi sitio web 
-     <!-- Menú de navegación -->   
-        
-                Inicio
-                Blog
-                Sobre mi
-                Fotos
-                Portfolio
-                Contacto
-                Enlaces
-        
+      
+<header>
+     <h1 href="./index.html"> Mi sitio web </h1>
+</header>
+
+
+        <!-- Menú de navegación -->   
+
+<nav>
+        <ul class="nav">
+         <li><a href="http://Mi-sitio-web/inicio.com">Inicio </a> </li>
+         <li><a href="http://Mi-sitio-web/Blog.com">  Blog </a>   </li>
+         <li><a href="http://Mi-sitio-web/sobremi.com"> Sobre mi</a>  </li>
+         <li><a href="http://Mi-sitio-web/fotos.com">Fotos </a></li>
+         <li><a href="http://Mi-sitio-web/portfolio.com">Portfolio </a></li>
+         <li><a href="http://Mi-sitio-web/contacto.com">Contacto</a> </li>
+         <li><a href="http://Mi-sitio-web/enlaces.com">Enlaces </a></li>
+        </ul> 
+   
+</nav>
+     
  <!-- Contenido Principal -->
+<main>
+  
   <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->   
+  <div class="fotokoala">
+                <img class="koala" src="./koala.jpg">
+                <figcaption><p>Figura: Descripción foto</p></figcaption>
+   </div>
+  
+  
   <!-- 2. Texto -->           
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh vulputate feugiat. Morbi euismod velit sit amet libero volutpat ultrices in quis sem. Sed sit amet placerat sem. Curabitur vitae lectus nec purus accumsan faucibus. Donec vitae volutpat tortor. Suspendisse tempor rutrum urna, in consequat est tincidunt vitae. Cras et ligula at felis placerat tempor. Fusce elementum metus non justo luctus iaculis.</p>
             <p>Donec ligula arcu, sagittis lacinia nibh et, consequat gravida turpis. Aenean nec scelerisque felis. Integer nec odio sed lorem mattis rhoncus quis quis nibh. Praesent non fringilla nisi. Duis porta placerat mattis. Aenean in mollis odio, at egestas massa. Quisque in lectus magna. Vestibulum vel faucibus massa, vel varius tortor. Maecenas et laoreet neque, ut semper neque. Suspendisse aliquet, nisl vel pharetra ultricies, elit felis molestie sem, ac scelerisque turpis tortor non lacus.</p>
+</main>
+
+
 <!-- Contenido relacionado-->
-<!-- Tres apartados con lista desordenada de enlaces:
-        1. Categorías
-
-                Categoría 1
-                Categoría 2
-                Cateogría 3
-                Categoría 4
-                Categoría 5
+<aside>  
         
-        2. Archivo
-                Marzo 2019
-                Febrero 2019
-                Enero 2019
-                Diciembre 2018
+        <h3> Categorías </h3>
+
+                <li><a href="http://Mi-sitio-web/categoria1.com">Categoría 1</a></li>
+                <li><a href="http://Mi-sitio-web/categoria2.com">Categoría 2</a></li>
+                <li><a href="http://Mi-sitio-web/categoria3.com">Categoría 3</a></li>
+                <li><a href="http://Mi-sitio-web/categoria4.com">Categoría 4</a></li>
+                <li><a href="http://Mi-sitio-web/categoria5.com">Categoría 5</a></li>
+        
+        <h3> Archivo </h3>
+                
+                <li><a href="http://Mi-sitio-web/Marzo2019.com">Marzo 2019</a></li>
+                <li><a href="http://Mi-sitio-web/Febrero2019.com">Febrero 2019</a></li>
+                <li><a href="http://Mi-sitio-web/Enero2019.com">Enero 2019</a></li>
+                <li><a href="http://Mi-sitio-web/Diciembre2018.com">Diciembre 2018</a></li>
 
 
-        3. Enlaces
-                Enlace 1
-                Enlace 2
-                ...
-                Enlace 5
+        <h3> Enlaces </h3>
+        
+                <li><a href="http://Mi-sitio-web/enlace1.com">Enlace 1</a></li>
+                <li><a href="http://Mi-sitio-web/enlace2.com">Enlace 2</a></li>
+                <li><a href="http://Mi-sitio-web/enlace3.com">Enlace 3</a></li>
+                <li><a href="http://Mi-sitio-web/enlace4.com">Enlace 4</a></li>
+                <li><a href="http://Mi-sitio-web/enlace5.com">Enlace 5</a></li>
+
+</aside>
+
 
 <!-- Pie de pagina -->
-            © 2019 Vuestro nombre y apellidos
+<footer>
+
+        <span>&copy; 2019 Héctor Company Ortega </span>
+           
+</footer>
+
+
+</div>            
 </body>
 </html>

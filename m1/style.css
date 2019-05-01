@@ -3,8 +3,98 @@
 . márgenes, padding, fuente (verdana, sans-serif con tamaño 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
 
+
+.body {
+  margin: auto;
+  padding: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  background-color: #F2F5FE;
+  background-image: url(./fondo.gif)
+
+}
+
+header {
+   background-color: #233C9B;
+   width: 100%;
+   padding: 10px;
+   line-height: 35px;
+
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #FFF;
+  line-height: 35px;
+  font-size: 260%;
+}
+
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #B5C4E3;
+  line-height: 35px;
+  font-size: 60%;
+}
+
+p {  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+
+}
+
+.nav {
+  margin-left: 450px;
+     
+}
+
+.nav li {
+   font-family: Georgialist-style: none;
+   display: inline-block;
+   background-color: #233C9B;
+   padding: .2em 0 .2em .5em;
+   font-size: 20px;
+ 
+  
+}
+
 /* El contenedor tendrá las siguientes características: 
   ancho 80% color de fondo blanco */
+
+.container {
+    box-sizing: border-box;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    
+  }
+
+.koala {
+    width: 200px;
+    height: 200px;
+  
+}
+
+.fotokoala {
+    margin-left: 550px;
+
+
+}
+
+main {
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  margin-left: 10px;    
+  width: 79%;
+
+}
+
+aside {
+  
+}
+
+
+
 
 /*La cabecera de la página contendrá el título con enlace al directorio del contenido de la página. Las características serán:
 Fondo:
