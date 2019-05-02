@@ -6,30 +6,32 @@
         <title>EXERCICI HTML-CSS</title>
         <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
         <!-- Cabecera -->
         <!-- Título con hipertexto al propio contenido del web-->
         <header>
-                <div><a href="./">Mi sitio web </a>
-                </div>
+                <h1><a href="./">Mi sitio web </a></h1>
         </header>
-        <!-- Menú de navegación -->
-        <div>
-                <ul>
-                        <li>Inicio</li>
-                        <li>Blog</li>
-                        <li>Sobre mi</li>
-                        <li>Fotos</li>
-                        <li>Portfolio</li>
-                        <li>Contacto</li>
-                        <li>Enlaces</li>
-                </ul>
+        <div id="mainPage">
+                <!-- Menú de navegación -->
+                <nav id="mainMenu">
+                        <ul>
+                                <li><a href="">Inicio</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Sobre mi</a></li>
+                                <li><a href="">Fotos</a></li>
+                                <li><a href="">Portfolio</a></li>
+                                <li><a href="">Contacto</a></li>
+                                <li><a href="">Enlaces</a></li>
+                        </ul>
+                </nav>
                 <!-- Contenido Principal -->
-                <main>
+                <main id="mainContent">
                         <!-- 1. ---fotografia koala.png con pie de foto:"descripción de la foto" de  200*200 px-->
                         <figure>
                                 <img src="./koala.jpg" alt="">
-                                <figcaption>Figura: Koala</figcaption>
+                                <figcaption>Koala en plena producción</figcaption>
                         </figure>
                         <!-- 2. Texto -->
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare sapien ac nibh
@@ -87,7 +89,8 @@
         </div>
         <!-- Pie de pagina -->
         <footer>
-                <span>© 2019 Dani Llobet</span>
+                <h5>© 2019 Dani Llobet</h5>
         </footer>
 </body>
+
 </html>

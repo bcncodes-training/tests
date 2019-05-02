@@ -1,23 +1,19 @@
-* {
-	margin: 0;
-	padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
+* {margin: 0;padding: 0;border: 0;vertical-align: baseline;}
 html{background-image: url("../fondo.gif");background-repeat: repeat-x;background-position: center;background-size: auto 100%;}
+body{text-align: center;margin: 0 10%;position: relative;display: inline-block;font: normal normal 120%/160% Verdana;}
 header{background-color: #233C9B;color: #f9f9fd;text-align: left;}
-header>div{font-family: Georgia, 'Times New Roman', Times, serif !important;font-size: 260%;padding: 10px;line-height: 35px;text-decoration-color: #fbf9f9;}
-header a{color: #FFF;}
-header:hover{color: #B5C4E3;}
-body{text-align: center;margin: 0 10%;position: relative;display: inline-block;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 120%;line-height: 160%;}
-body>div:first-of-type{background-color: white;position: relative;display: inline-block;}
-p{text-align: justify;margin: 20px 0;}
-body>div>ul:first-of-type{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;}
+header>h1{padding: 10px;text-decoration-color: #fbf9f9;font: bold normal 260%/35px Georgia;}
+header a:hover{color: #B5C4E3;}
+header a{color: #fff}
+#mainPage{background-color: white;position: relative;display: inline-block;}
+#mainMenu>ul{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;}
 ul:hover{cursor: pointer;}
-body>div>ul:first-of-type>li{display: inline-block;margin: 5px;background-color: #253575;padding: 5px 15px;}
-body>div>ul:first-of-type>li:hover{background-color: #31479B;}
-main{width: 79%;display: inline-block;padding: 30px 10px 60px 10px;}
-figure>img{height: 200px;width: 200px;}
+#mainMenu>ul>li{display: inline-block;margin: 5px;background-color: #253575;padding: 5px 15px;}
+#mainMenu>ul>li:hover{background-color: #31479B;}
+#mainMenu>ul>li>a{color: #B5C4E3;text-decoration: none;}
+#mainContent{width: 79%;display: inline-block;padding: 30px 10px 60px 10px;}
+#mainContent>figure>img{height: 200px;width: 200px;}
+#mainContent>p{text-align: justify;margin: 20px 0;}
 aside{float: right;width: 19%;font-size: 0.75em;}
 aside>ol{/*! text-align: left; */padding: 5px;}
 aside ul{margin-left: 40px !important;}
@@ -25,7 +21,7 @@ ol>li{display: block;font-weight: bold;/*! padding: 10px; */text-align: left;}
 li>ul{font-weight: normal;margin: 10px;margin: 10px 0;list-style-type: disc;}
 li>ul>li{margin: 10px 0;}
 footer{font-size: 0.75em;color: #fff;background-color: #233C9B;position: relative;height: 40px;}
-footer>span{width: 100%;padding: 5px 0;line-height: 3em;}
+footer>h5{width: 100%;padding: 5px 0;line-height: 2.5em;}
 /* El bloque de reset tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
 . mÃƒÂ¡rgenes, padding, fuente (verdana, sans-serif con tamaÃƒÂ±o 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
 en el eje horizontal  */
