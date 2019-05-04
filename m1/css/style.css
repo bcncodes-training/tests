@@ -1,0 +1,66 @@
+* {margin: 0;padding: 0;border: 0;vertical-align: baseline;}
+html{background-image: url("../fondo.gif");background-repeat: repeat-x;background-position: center;background-size: auto 100%;}
+body{text-align: center;margin: 0 10%;position: relative;display: inline-block;font: normal normal 120%/160% Verdana;}
+header{background-color: #233C9B;color: #f9f9fd;text-align: left;}
+header>h1{padding: 10px;text-decoration-color: #fbf9f9;font: bold normal 260%/35px Georgia;}
+header a:hover{color: #B5C4E3;}
+header a{color: #fff}
+#mainPage{background-color: white;position: relative;display: inline-block;}
+#mainMenu>ul{margin: 5px;font-size: 0.75em;color: #B5C4E3;font-weight: bold;}
+ul:hover{cursor: pointer;}
+#mainMenu>ul>li{display: inline-block;margin: 5px;background-color: #253575;padding: 5px 15px;}
+#mainMenu>ul>li:hover{background-color: #31479B;}
+#mainMenu>ul>li>a{color: #B5C4E3;text-decoration: none;}
+#mainContent{width: 79%;display: inline-block;padding: 30px 10px 60px 10px;}
+#mainContent>section>figure>img{height: 200px;width: 200px;}
+#mainContent>section>article>p{text-align: justify;margin: 20px 0;}
+aside{float: right;width: 19%;font-size: 0.75em;}
+aside>ol{/*! text-align: left; */padding: 5px;}
+aside ul{margin-left: 40px !important;}
+ol>li{display: block;font-weight: bold;/*! padding: 10px; */text-align: left;}
+li>ul{font-weight: normal;margin: 10px;margin: 10px 0;list-style-type: disc;}
+li>ul>li{margin: 10px 0;}
+footer{font-size: 0.75em;color: #fff;background-color: #233C9B;position: relative;height: 40px;}
+footer>h5{width: 100%;padding: 5px 0;line-height: 2.5em;}
+/* El bloque de reset tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
+. mÃƒÂ¡rgenes, padding, fuente (verdana, sans-serif con tamaÃƒÂ±o 120% y altura 160%) y fondo con color (#F2F5FE) e imagen (fondo.gif) repetida
+en el eje horizontal  */
+
+/* El contenedor tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas: 
+  ancho 80% color de fondo blanco */
+
+/*La cabecera de la pÃƒÂ¡gina contendrÃƒÂ¡ el tÃƒÂ­tulo con enlace al directorio del contenido de la pÃƒÂ¡gina. Las caracterÃƒÂ­sticas serÃƒÂ¡n:
+Fondo:
+Color:#233C9B
+Padding: 10px;
+Texto:
+color de texto: #FFF, fuente georgia, serif y tamaÃƒÂ±o 260%. Al pasar el mouse por encima tomarÃƒÂ¡ el color: #B5C4E3; 
+Altura de lÃƒÂ­nea: 35px*/
+
+/* Al menÃƒÂº de navegaciÃƒÂ³n se le aplicarÃƒÂ¡ el siguiente formato: 
+  - EstarÃƒÂ¡ centrado con respecto a la cabecera
+  - los elementos estarÃƒÂ¡n separados por un espacio de 5px
+  - la fuente  serÃƒÂ¡ 3/4 de la inicial, en negrita y de color #B5C4E3
+  - los enlaces no estarÃƒÂ¡n subrayados
+  - el cursor tomarÃƒÂ¡ la forma de puntero al pasar por encima
+  - los elementos tendrÃƒÂ¡n un espacio de relleno de 5px por arriba y abajo y 15px izqda-dcha.
+  - El fondo del elemento serÃƒÂ¡ #253575
+  - Al pasar el mouse por encima adquirirÃƒÂ¡ el color de fondo #31479B;*/
+
+
+/* La secciÃƒÂ³n principal tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
+  - ancho: 79%
+  - relleno de texto superior, derecha, inferior, izquierda de 30px, 10px, 60px y 10px, respectivamente.*/
+
+/* El elemento lateral tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas:
+  - ancho 19%
+  - tamaÃƒÂ±o de fuente de 3/4 de la inicial
+
+/* El pie del documento tendrÃƒÂ¡ las siguientes caracterÃƒÂ­sticas: 
+  - tamaÃƒÂ±o de fuente de 3/4 de la inicial 
+  - relleno del texto 5px por arriba y abajo 
+  - color de la fuente blanco
+  - color de fondo: #233C9B 
+  - altura del elemento 40px;
+*/
+
