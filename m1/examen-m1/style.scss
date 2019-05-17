@@ -4,8 +4,6 @@ html{
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
-
-
 }
 
 //  LAYOUT DEL DOCUMENTO
@@ -53,10 +51,15 @@ header{
 }
 
 main{
+    position: relative;
+   
+    height: 80%;
    
     p{
         position: relative;
         display: inline-block;
+  
+
         padding: 60px 60px;
         margin:10px 10px;
         border: 1px solid whitesmoke;
@@ -68,19 +71,16 @@ main{
             color: whitesmoke;
         }
         
-        a:hover{
-            background-color:black;
-            opacity:0.1;
-            filter: drop-shadow(16px 16px 20px #333);
-        }
-        .alumnes{
-            float:left;
-            width: 300px;
-        }
-        .recursos{
-            width: 300px;
-            float:right;
-        }
+        
+ 
+    }
+    p:hover{
+        background-color:black;
+        opacity:0.1;
+        filter: drop-shadow(16px 16px 20px #333);
+    //    a{
+            text-shadow: 15px 15px 15px #000
+    //    }
     }
 }
 

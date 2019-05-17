@@ -38,6 +38,10 @@ header nav li a:hover {
   filter: drop-shadow(16px 16px 20px #333);
 }
 
+main {
+  position: relative;
+  height: 80%;
+}
 main p {
   position: relative;
   display: inline-block;
@@ -51,18 +55,11 @@ main p a {
   text-decoration: none;
   color: whitesmoke;
 }
-main p a:hover {
+main p:hover {
   background-color: black;
   opacity: 0.1;
   filter: drop-shadow(16px 16px 20px #333);
-}
-main p .alumnes {
-  float: left;
-  width: 300px;
-}
-main p .recursos {
-  width: 300px;
-  float: right;
+  text-shadow: 15px 15px 15px #000;
 }
 
 footer {
