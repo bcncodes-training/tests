@@ -15,17 +15,17 @@ box-sizing: border-box;
 font-family: Helvetica Arial sans-serif;
 
 }
-.container{
-    width: 80%;
-    margin:0 auto;
+//.container{
+//    width: 80%;
+ //   margin:0 auto;
+//}
 
-}
 /*layout y detalles*/
 .cabecera{
-    filter: grayscale(100%);
     background-color: black;
     text-align: center;
     background-image: url($imagenfondo);
+    filter: grayscale(100%);
 }
 .cabecera h1{
     color:$color3;
@@ -34,23 +34,30 @@ font-family: Helvetica Arial sans-serif;
     text-decoration:none;
     text-align: center;
     display:inline-block;
-
+}
+.menu_navegacion ul li a{
+    text-decoration: none;
+}
+.menu_navegacion ul li a:hover{
+    background-color: $color3;
 }
 main{
     background-color: $color2;
 }
-
+section{
+    padding: 20px;
+}
 section h2 a{
     display:inline-block;
     text-decoration:none;
     color:$color3;
-
 }
 section:hover{
-    //background-color: grey;
+    background-color: rgba(0,0,0,0.1);
     filter: drop-shadow(16px 16px 20px #333);
     
 }
+
 .izquierda{
     float:left;
     margin-left:20px;
@@ -66,7 +73,7 @@ section:hover{
 }
 .derecha{
     float:right;
-    //margin-left:20px;
+    margin-right: 20px;
     width: 33%;
     height: 50px;
 }

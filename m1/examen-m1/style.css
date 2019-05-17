@@ -10,17 +10,12 @@
   font-family: Helvetica Arial sans-serif;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 /*layout y detalles*/
 .cabecera {
-  filter: grayscale(100%);
   background-color: black;
   text-align: center;
   background-image: url("https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg");
+  filter: grayscale(100%);
 }
 
 .cabecera h1 {
@@ -33,8 +28,20 @@
   display: inline-block;
 }
 
+.menu_navegacion ul li a {
+  text-decoration: none;
+}
+
+.menu_navegacion ul li a:hover {
+  background-color: whitesmoke;
+}
+
 main {
   background-color: white;
+}
+
+section {
+  padding: 20px;
 }
 
 section h2 a {
@@ -44,6 +51,7 @@ section h2 a {
 }
 
 section:hover {
+  background-color: rgba(0, 0, 0, 0.1);
   filter: drop-shadow(16px 16px 20px #333);
 }
 
@@ -62,6 +70,7 @@ section:hover {
 
 .derecha {
   float: right;
+  margin-right: 20px;
   width: 33%;
   height: 50px;
 }
