@@ -23,7 +23,7 @@ body {
 
 header {
   width: 75vh;
-  height: 100px;
+  height: 200px;
   background-image: url(https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg);
   display: block;
   -webkit-box-pack: center;
@@ -34,20 +34,25 @@ header {
 header h1 {
   font-weight: bold;
   color: whitesmoke;
+  position: relative;
+  left: 25%;
+  top: 30%;
 }
 
-.nav {
+header .nav {
+  position: relative;
   list-style: none;
+  top: 50%;
 }
 
-.nav ul {
+header .nav ul {
   list-style: none;
   display: inline-block;
   color: #333;
   text-align: center;
 }
 
-.nav ul li {
+header .nav ul li {
   text-decoration: none;
   left: 25%;
   margin-left: 1em;
@@ -61,8 +66,8 @@ main {
 }
 
 main .cub {
-  width: 350px;
-  height: 250px;
+  width: 33%;
+  height: 100px;
   background-color: whitesmoke;
   border-radius: 25px;
   -webkit-border-radius: 5px;
