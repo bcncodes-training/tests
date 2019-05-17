@@ -24,7 +24,7 @@ section{
     }
 
 }
-#alumnes {
+#recursos,#alumnes {
     text-decoration: none;
     border: 1px solid whitesmoke;
     border-radius: 5%;
@@ -43,28 +43,3 @@ section{
         }          
     }
 }
-
-#recursos {
-    text-decoration: none;
-    border: 1px solid whitesmoke;
-    border-radius: 5%;
-    text-align: center;
-    a{
-        padding:10em;text-decoration: none;
-        h2{
-            font-size: 2.2em;
-            padding: 1.5em 1em;
-            }
-    }
-    &:hover {
-        background-color: #0000001a;
-        a{
-            text-shadow: 5px 4px 8px black;
-            filter: drop-shadow(16px 16px 20px #333);
-                        
-        }
-    }
-    
-}
-
-  
