@@ -12,7 +12,7 @@
 
 /*layout y detalles*/
 .cabecera {
-  background-color: black;
+  background-color: #333;
   text-align: center;
   background-image: url("https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg");
   filter: grayscale(100%);

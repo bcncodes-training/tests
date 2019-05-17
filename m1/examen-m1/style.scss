@@ -17,12 +17,12 @@ font-family: Helvetica Arial sans-serif;
 }
 //.container{
 //    width: 80%;
- //   margin:0 auto;
+//   margin:0 auto;
 //}
 
 /*layout y detalles*/
 .cabecera{
-    background-color: black;
+    background-color: $color1;
     text-align: center;
     background-image: url($imagenfondo);
     filter: grayscale(100%);
@@ -71,6 +71,7 @@ section:hover{
     width:33%;
     height: 50px;
 }
+//div{clear:both;}
 .derecha{
     float:right;
     margin-right: 20px;
@@ -85,5 +86,4 @@ section:hover{
 .pie p{
     color:$color3;
     text-align: center;
-    
 }
