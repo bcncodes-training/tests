@@ -18,7 +18,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 10em;
+  height: 15em;
   filter: grayscale(100%);
 }
 
@@ -30,6 +30,9 @@ nav ul li a {
   color: whitesmoke;
 }
 
+main {
+  height: 30rem;
+}
 main section {
   display: flex;
   flex-direction: row;
@@ -38,12 +41,13 @@ main section {
 
 footer {
   text-align: center;
-  height: 7em;
+  height: 14em;
   background-color: #333;
-  line-height: 12em;
+  display: flex;
+  justify-content: flex-end;
 }
 footer h6 {
-  margin: 0 auto;
+  margin: auto auto 1em auto;
 }
 
 header {
@@ -76,12 +80,12 @@ section div {
   text-align: center;
 }
 #alumnes a {
-  padding: 5em;
+  padding: 10em;
   text-decoration: none;
 }
 #alumnes a h2 {
   font-size: 2.2em;
-  padding: 0 1em;
+  padding: 1.5em 1em;
 }
 #alumnes:hover {
   background-color: #0000001a;
@@ -98,12 +102,12 @@ section div {
   text-align: center;
 }
 #recursos a {
-  padding: 5em;
+  padding: 10em;
   text-decoration: none;
 }
 #recursos a h2 {
   font-size: 2.2em;
-  padding: 0 1em;
+  padding: 1.5em 1em;
 }
 #recursos:hover {
   background-color: #0000001a;
