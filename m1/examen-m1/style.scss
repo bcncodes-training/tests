@@ -1,0 +1,70 @@
+@import "reset.scss";
+@import "layout.scss";
+
+header{
+    background-image: url(./paisaje-natural-item-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navlist{
+    li{
+        padding: 5px;
+        a{
+            font-size: 0.8em;;
+        }
+        &:hover{
+            a{color:#cecece}
+        }
+    }
+}
+section{
+    padding: 0.5em;
+    div{
+        padding:1em;
+    }
+
+}
+#alumnes {
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 5%;
+    text-align: center;
+    a{padding:5em;text-decoration: none;        
+        h2{
+            font-size: 2.2em;
+            padding: 0 1em;
+            }
+    }   
+    &:hover {
+        background-color: #0000001a;
+        a{
+            text-shadow: 5px 4px 8px black;
+            filter: drop-shadow(16px 16px 20px #333);
+        }          
+    }
+}
+
+#recursos {
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 5%;
+    text-align: center;
+    a{
+        padding:5em;text-decoration: none;
+        h2{
+            font-size: 2.2em;
+            padding: 0 1em;
+            }
+    }
+    &:hover {
+        background-color: #0000001a;
+        a{
+            text-shadow: 5px 4px 8px black;
+            filter: drop-shadow(16px 16px 20px #333);
+                        
+        }
+    }
+    
+}
+
+  

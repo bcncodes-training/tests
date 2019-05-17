@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+}
+
+header {
+  text-align: center;
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 10em;
+  filter: grayscale(100%);
+}
+
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  height: 7em;
+  background-color: #333;
+  line-height: 12em;
+}
+footer h6 {
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(./paisaje-natural-item-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navlist li {
+  padding: 5px;
+}
+#navlist li a {
+  font-size: 0.8em;
+}
+#navlist li:hover a {
+  color: #cecece;
+}
+
+section {
+  padding: 0.5em;
+}
+section div {
+  padding: 1em;
+}
+
+#alumnes {
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+  text-align: center;
+}
+#alumnes a {
+  padding: 5em;
+  text-decoration: none;
+}
+#alumnes a h2 {
+  font-size: 2.2em;
+  padding: 0 1em;
+}
+#alumnes:hover {
+  background-color: #0000001a;
+}
+#alumnes:hover a {
+  text-shadow: 5px 4px 8px black;
+  filter: drop-shadow(16px 16px 20px #333);
+}
+
+#recursos {
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+  text-align: center;
+}
+#recursos a {
+  padding: 5em;
+  text-decoration: none;
+}
+#recursos a h2 {
+  font-size: 2.2em;
+  padding: 0 1em;
+}
+#recursos:hover {
+  background-color: #0000001a;
+}
+#recursos:hover a {
+  text-shadow: 5px 4px 8px black;
+  filter: drop-shadow(16px 16px 20px #333);
+}
+
+/*# sourceMappingURL=style.css.map */
