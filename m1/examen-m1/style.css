@@ -69,13 +69,30 @@ main {
 
 main .cub {
   width: 33%;
-  height: 100px;
-  background-color: whitesmoke;
+  height: 200px;
+  background-color: rgba(224, 224, 224, 0.74);
+  border: 1px solid whitesmoke;
   border-radius: 25px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  margin: 20px;
+}
+
+main .cub p {
+  text-align: center;
+  color: rgba(236, 236, 236, 0.89);
+  font-size: 350%;
+}
+
+main .cub:hover {
+  background-color: whitesmoke;
+  transition: background-color, 0.9;
+  -webkit-transition: background-color, 0.9;
+  -moz-transition: background-color, 0.9;
+  -ms-transition: background-color, 0.9;
+  -o-transition: background-color, 0.9;
 }
 
 main .cub1 {
