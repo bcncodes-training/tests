@@ -61,9 +61,10 @@ main {
 }
 
 main .cub {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
+  width: 350px;
+  height: 250px;
+  background-color: whitesmoke;
+  border-radius: 25px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -98,5 +99,9 @@ footer {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+footer small {
+  font: 75% Helvetica, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

@@ -71,9 +71,10 @@ main{
     height:300px;
 
     .cub{
-        width:150px;
-        height: 150px;
-        border-radius:5px;    ;
+        width:350px;
+        height: 250px;
+        background-color: $main-color;
+        border-radius:25px;    
         -webkit-border-radius:5px    ;
         -moz-border-radius:5px    ;
         -ms-border-radius:5px    ;
@@ -101,7 +102,9 @@ footer{
     display:flex;
     justify-content: center;
     align-items: flex-end;    
-    
+        small{
+            font: 75% $font-stack;
+        }
 }
 
 
