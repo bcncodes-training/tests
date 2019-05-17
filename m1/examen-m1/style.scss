@@ -51,9 +51,9 @@ header{
 
     ul{
         list-style: none;
-        display:flex;
-        flex-flow: row wrap;
+        display:inline-block;
         color:#333;
+        text-align: center;
         
 
         li{
@@ -68,6 +68,16 @@ header{
 main{
     width: 75vh;
     height:300px;
+
+    .cub{
+        width:150px;
+        height: 150px;
+        border-radius:5px;    ;
+        -webkit-border-radius:5px    ;
+        -moz-border-radius:5px    ;
+        -ms-border-radius:5px    ;
+        -o-border-radius:5px    ;
+}
 }
 footer{
     width: 75vh;

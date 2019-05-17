@@ -44,14 +44,9 @@ header h1 {
 
 .nav ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  display: inline-block;
   color: #333;
+  text-align: center;
 }
 
 .nav ul li {
@@ -64,6 +59,16 @@ header h1 {
 main {
   width: 75vh;
   height: 300px;
+}
+
+main .cub {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 footer {
