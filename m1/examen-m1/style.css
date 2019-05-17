@@ -9,6 +9,7 @@ header {
   background: url(https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg);
   filter: grayscale(100%);
   background-repeat: no-repeat;
+  width: 100%;
   height: 125px;
 }
 header h1 {
