@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 4fr 2fr;
+  overflow: hidden;
+}
+.container .header {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .main {
+  margin-bottom: 60px;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20vw;
+}
+.container .footer {
+  padding: 0;
+}
+
+.container {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.15rem;
+  color: whitesmoke;
+}
+.container .header .title {
+  font-size: 5rem;
+}
+.container .header .navbar-item a {
+  font-size: 1.5rem;
+}
+.container .main section .handler {
+  font-size: 5rem;
+}
+.container .main section:hover .handler {
+  font-size: 2rem;
+}
+.container .footer .legal {
+  font-size: 0.8rem;
+}
+.container a {
+  color: whitesmoke;
+}
+
+@keyframes flip-in-ver-left {
+  0% {
+    -webkit-transform: rotateY(80deg);
+    transform: rotateY(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+.container .header,
+.container .footer {
+  background: #22333e;
+}
+.container .header {
+  background: #22333e url("https://images.pexels.com/photos/358502/pexels-photo-358502.jpeg?cs=srgb&dl=architecture-buildings-city-358502.jpg&fm=jpg") no-repeat;
+  background-size: cover;
+  filter: grayscale(70%);
+}
+.container .header .title {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.container .header nav .navbar {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.container .header nav .navbar-item {
+  padding: 10px;
+}
+.container .header nav .navbar-item:hover {
+  opacity: 0.5;
+}
+.container .header nav .navbar-item a {
+  text-decoration: none;
+}
+.container .section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border: 2px solid whitesmoke;
+  border-radius: 5%;
+}
+.container .section .handler {
+  line-height: 100%;
+  text-align: center;
+}
+.container .section .list {
+  display: none;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.container .section .list-item {
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  margin: 1rem;
+  border: 1px solid whitesmoke;
+}
+.container .section .list-item:hover {
+  opacity: 0.5;
+}
+.container .section .list-item a {
+  text-decoration: none;
+}
+.container .section:hover .handler {
+  line-height: 5%;
+  padding-bottom: 2rem;
+}
+.container .section:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(16px 16px 20px #22333e);
+  animation: flip-in-ver-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.container .section:hover .list {
+  display: flex;
+}
+.container .footer {
+  padding-top: 10%;
+}
+.container .footer .legal {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
