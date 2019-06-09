@@ -1,0 +1,89 @@
+$color1: #333;
+$color2:white;
+$color3:whitesmoke;
+$imagenfondo: "https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg";
+
+/*reset*/
+.reset{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+/*globales*/
+.globales{
+font-family: Helvetica Arial sans-serif;
+
+}
+//.container{
+//    width: 80%;
+//   margin:0 auto;
+//}
+
+/*layout y detalles*/
+.cabecera{
+    background-color: $color1;
+    text-align: center;
+    background-image: url($imagenfondo);
+    filter: grayscale(100%);
+}
+.cabecera h1{
+    color:$color3;
+}
+.menu_navegacion li{
+    text-decoration:none;
+    text-align: center;
+    display:inline-block;
+}
+.menu_navegacion ul li a{
+    text-decoration: none;
+}
+.menu_navegacion ul li a:hover{
+    background-color: $color3;
+}
+main{
+    background-color: $color2;
+}
+section{
+    padding: 20px;
+}
+section h2 a{
+    display:inline-block;
+    text-decoration:none;
+    color:$color3;
+}
+section:hover{
+    background-color: rgba(0,0,0,0.1);
+    filter: drop-shadow(16px 16px 20px #333);
+    
+}
+
+.izquierda{
+    float:left;
+    margin-left:20px;
+    width:33%;
+    height: 50px;
+}
+
+.centro{
+    visibility: hidden;
+    //float:center;
+    width:33%;
+    height: 50px;
+}
+//div{clear:both;}
+.derecha{
+    float:right;
+    margin-right: 20px;
+    width: 33%;
+    height: 50px;
+}
+.pie{
+    height: 60px;
+    background-color: $color1;
+    clear:both;
+}
+.pie p{
+    color:$color3;
+    text-align: center;
+}
