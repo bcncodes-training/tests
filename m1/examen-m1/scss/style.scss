@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  /* Posicionamiento imagen background */
+  background-image: url(https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  filter: grayscale(100%);
+
+  /* Posicionamiento textos y nav */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 72px;
+}
+
+nav a {
+  font-size: 20px;
+  color: whitesmoke;
+  text-shadow: 1px 1px #333;
+  text-decoration: none;
+  padding: 0 50px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 2px 2px #333;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+main div {
+  width: 30%;
+  height: 40vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 2px solid whitesmoke;
+}
+
+main div:hover {
+  filter: drop-shadow(16px 16px 20px #333);
+  opacity: 0.9;
+}
+
+main div:hover a {
+  color: whitesmoke;
+  filter: drop-shadow(16px 16px 20px #333);
+  opacity: 0.9;
+}
+
+main div a {
+  color: whitesmoke;
+  font-size: 72px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  height: 20vh;
+  background-color: #333;
+  color: whitesmoke;
+}
+
+footer p {
+  text-align: center;
+  position: relative;
+  top: 85%;
+}
+
+/*# sourceMappingURL=style.css.map */
