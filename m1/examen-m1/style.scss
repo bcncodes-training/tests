@@ -1,0 +1,98 @@
+// Reset y propiedades globales
+$negroDiseny: #333;
+$blancoDiseny: whitesmoke;
+$tipoLetra: Helvetica, Arial, sans-serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $tipoLetra;
+    display: flex;
+    flex-direction: column;
+
+    header {
+        
+        background-image: url('./paisaje-natural-item-5.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%, auto,cover;
+        filter: grayscale(100%);
+        
+        h1 {
+            color: $blancoDiseny;
+            text-align: center;
+            margin:0;
+        }
+    
+        Nav {
+            height: 35px;
+            font-size: 0.65rem;
+        }
+        
+        ul.Nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        li > a.Nav {
+            text-decoration: none;
+            margin: 0px 3px;
+            color: $blancoDiseny;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+    
+    main {
+        height: 200px;
+        display: flex;
+        flex-direction: line;
+        justify-content: space-between;
+        align-items: flex-start;
+        div {
+            background-color:white;
+            border: 1px solid $blancoDiseny;
+            border-radius: 5%;
+            margin: 10px;
+            padding-top: 40px;
+            padding-bottom: 70px;
+            padding-right: 50px;
+            padding-left: 50px;
+            color: $blancoDiseny;
+            font-size: 1.5rem;
+            font-weight: bold;
+            
+            a {
+                text-decoration: none;
+                color: $blancoDiseny;
+                cursor: pointer;
+                margin:0;
+            }    
+        }
+
+        div:hover {
+            text-decoration: none;
+            background-color:$blancoDiseny;
+            color: white;
+            a {
+                filter: drop-shadow(16px 16px 20px #333);
+                color: white;
+            }
+        } 
+    }
+    
+    footer {
+        height: 100px;
+        background-color:$negroDiseny;
+        color: $blancoDiseny;
+        font-size: 0.50rem;
+        text-align: center;
+        display:flex;
+        flex-direction: line;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+

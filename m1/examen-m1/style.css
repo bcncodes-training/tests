@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+body header {
+  background-image: url("./paisaje-natural-item-5.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%, auto, cover;
+  filter: grayscale(100%);
+}
+body header h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+}
+body header Nav {
+  height: 35px;
+  font-size: 0.65rem;
+}
+body header ul.Nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+body header li > a.Nav {
+  text-decoration: none;
+  margin: 0px 3px;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: bold;
+}
+body main {
+  height: 200px;
+  display: flex;
+  flex-direction: line;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body main div {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+  margin: 10px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+body main div a {
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+  margin: 0;
+}
+body main div:hover {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: white;
+}
+body main div:hover a {
+  filter: drop-shadow(16px 16px 20px #333);
+  color: white;
+}
+body footer {
+  height: 100px;
+  background-color: #333;
+  color: whitesmoke;
+  font-size: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: line;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */
