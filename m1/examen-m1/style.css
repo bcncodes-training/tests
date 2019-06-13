@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+}
+
+header {
+  text-align: center;
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+<<<<<<< HEAD
+  height: 30%;
+=======
+  height: 15em;
+>>>>>>> master
+  filter: grayscale(100%);
+}
+
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+main {
+<<<<<<< HEAD
+  height: 50%;
+=======
+  height: 30rem;
+>>>>>>> master
+}
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+<<<<<<< HEAD
+  height: 20%;
+=======
+  height: 14em;
+>>>>>>> master
+  background-color: #333;
+  display: flex;
+  justify-content: flex-end;
+}
+footer h6 {
+  margin: auto auto 1em auto;
+}
+
+header {
+  background-image: url(./paisaje-natural-item-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navlist li {
+  padding: 5px;
+}
+#navlist li a {
+  font-size: 0.8em;
+}
+#navlist li:hover a {
+  color: #cecece;
+}
+
+section {
+  padding: 0.5em;
+}
+section div {
+  padding: 1em;
+}
+
+<<<<<<< HEAD
+#recursos, #alumnes {
+=======
+#alumnes {
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+  text-align: center;
+}
+#alumnes a {
+  padding: 10em;
+  text-decoration: none;
+}
+#alumnes a h2 {
+  font-size: 2.2em;
+  padding: 1.5em 1em;
+}
+#alumnes:hover {
+  background-color: #0000001a;
+}
+#alumnes:hover a {
+  text-shadow: 5px 4px 8px black;
+  filter: drop-shadow(16px 16px 20px #333);
+}
+
+#recursos {
+>>>>>>> master
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+  text-align: center;
+}
+<<<<<<< HEAD
+#recursos a, #alumnes a {
+=======
+#recursos a {
+>>>>>>> master
+  padding: 10em;
+  text-decoration: none;
+}
+#recursos a h2, #alumnes a h2 {
+  font-size: 2.2em;
+  padding: 1.5em 1em;
+}
+#recursos:hover, #alumnes:hover {
+  background-color: #0000001a;
+}
+#recursos:hover a, #alumnes:hover a {
+  text-shadow: 5px 4px 8px black;
+  filter: drop-shadow(16px 16px 20px #333);
+}
+
+/*# sourceMappingURL=style.css.map */
