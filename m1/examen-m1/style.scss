@@ -1,0 +1,132 @@
+/*documento reset*/
+
+@import"reset.scss";
+
+
+/*declaración de fuentes y colores*/
+
+$font-stack: Helvetica, sans-serif;
+$footer-color:#333;
+$main-color:whitesmoke;
+/*construccion grid*/
+/*.grid{
+    font-size:2em;
+    display: grid /*inline-grid*/;
+   /* grid-template-rows: 4rem 8rem 4rem ; /*repeat (4, 4rem)*/
+   /*  grid-template-columns: repeat(3, 32rem);*/
+/*desastre en la constrccion del grid. Faltan dos horas, utilizaré flex.*/
+/*ni flex. Tradicional . los nervios me tienen artenazado, joder!*/
+
+body{
+    width:85vh;
+    height: 1200px;
+    margin: auto;
+    font: 100% $font-stack;
+
+}
+
+header{
+    width: 75vh;
+    height: 200px;
+    background-image:url(https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-item-5.jpg);
+    display:block;
+    justify-content:center;
+                    
+    
+    h1{
+        font-weight:bold;
+        color: $main-color;
+        position: relative;
+        left:25%;
+        top:30%;
+    }
+
+
+
+.nav{
+    position:relative;
+    list-style: none;
+    top:50%;
+
+    
+
+    ul{
+        list-style: none;
+        display:inline-block;
+        color:#333;
+        text-align: center;
+        
+        
+
+        li{
+            position: relative;
+            text-decoration: none;
+            left: 45%;
+            
+            display: inline;
+            text-align: center;
+            color: $main-color;
+            font-size:medium;
+            
+        }
+    }
+}
+}
+main{
+    width: 75vh;
+    height:200px;
+
+    .cub{
+        width:33%;
+        height: 200px;
+        background-color: rgba(224, 224, 224, 0.74);
+        border:1px solid $main-color;
+        border-radius:25px;    
+        -webkit-border-radius:5px    ;
+        -moz-border-radius:5px    ;
+        -ms-border-radius:5px    ;
+        -o-border-radius:5px    ;
+        margin:20px;
+        p{
+            text-align: center;
+            color: rgba(236, 236, 236, 0.89);
+            font-size:350%;
+        }
+}
+.cub:hover{
+    background-color:whitesmoke;
+    transition: background-color, 0.9;
+    -webkit-transition: background-color, 0.9;
+    -moz-transition: background-color, 0.9;
+    -ms-transition: background-color, 0.9;
+    -o-transition: background-color, 0.9;
+}
+.cub1{
+    position: relative;
+    float: right;
+
+}
+.cub2{
+    position: relative;
+    float: left;
+
+}
+div{
+    clear: both;
+}
+}
+footer{
+    width: 75vh;
+    height: 100px;
+    background-color: $footer-color;
+    color:$main-color;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;    
+        small{
+            font: 75% $font-stack;
+        }
+}
+
+
+
