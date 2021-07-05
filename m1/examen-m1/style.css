@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(./img/paisaje-natural-item-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.titulo {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+p {
+  font-weight: bold;
+  font-size: 70px;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 20px;
+}
+
+a:hover {
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 50px;
+}
+
+main div {
+  border: 1px solid whitesmoke;
+  height: 300px;
+  width: 350px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+main > div:hover {
+  filter: drop-shadow(16px 16px 20px #333);
+  background-color: whitesmoke;
+}
+
+main > div a {
+  font-weight: bold;
+  font-size: 70px;
+  color: whitesmoke;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  transform: translateY(80px);
+}
+
+main a:hover {
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
+  position: center center;
+  filter: drop-shadow(16px 16px 20px #333);
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  margin-top: 86px;
+  background-color: #333;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+footer a {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
